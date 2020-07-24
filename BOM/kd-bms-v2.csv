@@ -1,0 +1,42 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacture,P/N,Voltage,Power,Material,Tolerance,Temperature
+1,x20,10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12,0.01uF,603,12,https://octopart.com/search?q=GCD188R71H103KA01&start=0,Murata,GCD188R71H103KA01D,50V,200W,Ceramic,10%,125C
+2,x20,10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,C16 C17,0.01uF,805,2,https://octopart.com/gcm21br72a104ka37l-murata-7894859?r=sp&s=epPbqnHBSlK__JA7imwDUw,Murata,GCM21BR72A104KA37L,100V,200W,Multilayer Ceramic,10%,125C
+3,x20,10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,C13 C14 C15,1.0uF,805,3,https://octopart.com/gcm188r71c105ka64d-murata-13159598?r=sp&s=PgQJPuLnQxmEWQYJOr2J9Q,Murata,GCM188R71C105KA64D,100V,200W,Multilayer Ceramic,10%,125C
+4,x15,LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,LED-GREEN0603,LED-0603,12,https://octopart.com/search?q=LTST-C190KGKT&start=0,Lite-On,LTST-C190KGKT,5v,"75mW, 30mA, 80mApeak",AlInGaP Chip LED,DIO-00821,-30C to +85C
+5,x15,LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,D13,LED-RED0603,LED-0603,1,https://octopart.com/search?q=LTST-C190KGKT&start=0,Lite-On,LTST-C190KGKT,5v,"75mW, 30mA, 80mApeak",AlInGaP Chip LED,DIO-00821,-30C to +85C
+6,x20,CONN_02-SparkFun-Connectors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,J2 J3,CONN_02,1X02,2,,,,,,,,
+7,x10,Conn_01x08-Connector-BMS_6804IG-2_Slave_V1-rescue,J4,Conn_01x08,1X08,1,https://datasheet.octopart.com/22-28-8081-Molex-datasheet-13787553.pdf,Molex,22-28-8081,100V,NA,Plastic/Nylon/Metal,NA,125C
+8,x10,Conn_01x14-Connector-BMS_6804IG-2_Slave_V1-rescue,J1,Conn_01x14,1X14,1,https://datasheet.octopart.com/022284143-Molex-datasheet-8335610.pdf,Molex/GlenAir,22-28-4143,100V,NA,Plastic/Nylon/Metal,NA,125C
+9,x100,MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12,MOSFET-P,SOT23-3,12,https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q,Infineon,BSS308PEH6327XTSA1,-30V,0.5W,P-MOSFET,unipolar,Automotive
+10,x15,TRANS_NPN-2N3904-SparkFun-DiscreteSemi-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,Q13,"TRANS_NPN 100V, 2A, Low Vce",SOT223,1,http://datasheet.octopart.com/NSV1C201MZ4T1G-ON-Semiconductor-datasheet-13700335.pdf,ON Semiconductor,NSV1C201MZ4T1G,100V,800mW,NPN Transistor,"ON SEMI, NSV1C201MZ4",-55C to +150C
+11,x20,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R51,1.4K OHM,603,1,https://octopart.com/crcw06031k40fkea-vishay-39856971?r=sp&s=N5tJThrfRgmPb8fESt6iJg,Vishay,CRCW06031K40FKEA,50V,1/10W,Thick Film SMD Paper,1%,Automotive
+12,,RESISTORAXIAL-0.3-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue,R49,100 OHM,AXIAL-0.1,1,,?,?,50V,1W,carbon axial-0.3,100 ohm 1W 10%,125
+13,x100,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R61 R64 R65,100 ohm,603,15,https://octopart.com/search?q=NRC06F1000TRF&start=0,NIC Components,NRC06F1000TRF,50V,1/10W,Thin Film Thick Film SMD Paper,1%,automotive
+14,x100,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R50 R54 R55 R57 R58 R59 R60 R63,10K OHM,603,8,https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ,Vishay,CRCW060310K0FKEA,50V,1/10W,Thick Film SMD Paper,1%,-55C to +125C
+15,x20,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R52 R53,22 OHM,603,2,https://octopart.com/crcw060322r0fkea-vishay-39862762?r=sp&s=fSYbFDHzQ2SQelbbQqVnqg,Vishay,CRCW060322R0FKEA,50V,1/10W,Thick Film SMD Paper,1%,Automotive
+16,x100,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R25 R26 R27 R28 R29 R30 R31 R32 R33 R34 R35 R36,3.3K OHM,603,12,https://octopart.com/search?q=crcw06033k30fkea&start=0,Vishay,CRCW06033K30FKEA,50V,1/10W,Thick Film SMD Paper,1%,Automotive
+17,x100,15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24,33 OHM,R_2512_6332Metric,12,https://octopart.com/search?q=CRCW251233R0FKEG&start=0,Vishay,CRCW251215R0FKEG,High,10W,Thick Film Chip,1%,125
+18,x100,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R37 R38 R39 R40 R41 R42 R43 R44 R45 R46 R47 R48 R62,475 OHM,603,13,https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA,NIC Components,NRC06F4750TRF,50V,1/10W,Thick Film SMD Paper,1%,125
+19,x40,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R66 R67 R68 R69,47K OHM,603,4,https://octopart.com/crcw060347k0fkea-vishay-39826226,Vishay,CRCW060347K0FKEA,50V,1/10W,Thick Film SMD Paper,1%,Automotive
+20,x20,100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,R56,604 OHM,603,1,https://octopart.com/crcw06031k40fkea-vishay-39856971?r=sp&s=N5tJThrfRgmPb8fESt6iJg,Vishay,CRCW06031K40FKEA,50V,1/10W,Thick Film SMD Paper,1%,Automotive
+21,x20,SW_DIP_x04-Switch-BMS_6804IG-2_Slave_V1-rescue,SW1,SW_DIP_x04,DIPSWITCH-04-SMD,1,https://datasheet.octopart.com/A6SN-4101-P-Omron-datasheet-10910204.pdf,OMRON,A6SN-4104,24VDC,25mA at 24VDC,Resin Hi Temp,1000 cycles,-30C to +85C
+22,x20,ADT1-1-Transformer-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,TR1,HM2101NLT,HM2101NLT,1,http://download.siliconexpert.com/pdfs/2017/10/30/23/54/27/585/tnl_/manual/hm2101nl.pdf,PULSE,HM2101NL,1000Vrms,NA,Copper,2500V,-45C to +125C
+23,x10,24AA02-memory-BMS_6804IG-2_Slave_V1-rescue,U4,24AA02,SOT23-5,1,http://ww1.microchip.com/downloads/en/DeviceDoc/22124D.pdf,Microchip,24AA02,1.8v to 5.5v,20mW,CMOS,Automotive,-45C to +125C
+24,x10,"74HC4051 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16",U2,74HC4051,TSSOP16,1,https://datasheet.octopart.com/74HC4051PW%2C118-Philips-datasheet-12517090.pdf,NXP Semiconductors,"74HC4051PW,118",2v to 6v,60mW,CMOS,MIL-PRF-38535,-55C to +125C
+25,x10,LTC6255IS6TRMPBF-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,U3,LTC6255IS6TRMPBF,SOT95P280X100-6N,1,https://octopart.com/search?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA&q=LTC6255IS6TRMPBF&start=0,Analog Devices/Linear Technology,LTC6255IS6TRMPBF,1.8V to 5.25V,"SC-Amps/Industrial Single 6.5MHz, 65uA",Linear Technology/Analog,RRIO Op Amps,Automotive
+26,x10,LTC6804IG-2#PBF-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue,U1,LTC6804IG-2#PBF,SOP50P780X200-48N,1,Linear Tech. LTC6804IG-2#PBG,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Component Groups:,26,,,,,,,,,,,,,
+Component Count:,122,,,,,,,,,,,,,
+Fitted Components:,122,,,,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,,,,
+Total components:,122,,,,,,,,,,,,,
+Schematic Version:,1,,,,,,,,,,,,,
+Schematic Date:,2018-11-15,,,,,,,,,,,,,
+BoM Date:,Tue 15 Jan 2019 08:51:48 AM PST,,,,,,,,,,,,,
+Schematic Source:,/home/pbear/Projects/HW/Tier1/UT1-2810-601/UT1-2810-601.sch,,,,,,,,,,,,,
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1,,,,,,,,,,,,,

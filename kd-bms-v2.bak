@@ -1,0 +1,3668 @@
+EESchema Schematic File Version 4
+LIBS:UT1-2810-601-cache
+EELAYER 26 0
+EELAYER END
+$Descr D 22000 34000 portrait
+encoding utf-8
+Sheet 1 1
+Title "LTC6804IG-2 BMS Slave"
+Date "2018-11-15"
+Rev "03"
+Comp "Tier 1 Engineering"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8550 30500 8950 30500
+Wire Wire Line
+	8250 30750 8250 30800
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D1
+U 1 1 5BEB8032
+P 9300 31000
+F 0 "D1" H 9377 31045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 30961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 31000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 31000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 30866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 31000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 31000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 31000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 31000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 31000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 31000 50  0001 C CNN "P/N"
+	1    9300 31000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 30900 9300 30800
+Wire Wire Line
+	9300 30800 8250 30800
+Connection ~ 8250 30800
+Wire Wire Line
+	8250 30800 8250 31100
+Wire Wire Line
+	8250 31500 8250 31950
+Wire Wire Line
+	8250 31950 9300 31950
+Wire Wire Line
+	8250 30250 8250 29850
+Wire Wire Line
+	9350 30500 10000 30500
+Text GLabel 10000 30500 2    50   Input ~ 0
+S1
+Text GLabel 7500 29850 0    50   Input ~ 0
+CELL1
+Wire Wire Line
+	7500 29850 8250 29850
+Wire Wire Line
+	9300 31950 9300 31800
+Wire Wire Line
+	9300 31400 9300 31200
+Wire Wire Line
+	8550 28000 8950 28000
+Wire Wire Line
+	8250 28250 8250 28300
+Wire Wire Line
+	9300 28400 9300 28300
+Wire Wire Line
+	9300 28300 8250 28300
+Connection ~ 8250 28300
+Wire Wire Line
+	8250 28300 8250 28600
+Wire Wire Line
+	8250 29000 8250 29450
+Wire Wire Line
+	8250 29450 9300 29450
+Wire Wire Line
+	8250 27750 8250 27350
+Wire Wire Line
+	8250 29450 8250 29850
+Connection ~ 8250 29450
+Wire Wire Line
+	9350 28000 10000 28000
+Text GLabel 10000 28000 2    50   Input ~ 0
+S2
+Text GLabel 7500 27350 0    50   Input ~ 0
+CELL2
+Wire Wire Line
+	7500 27350 8250 27350
+Wire Wire Line
+	9300 29450 9300 29300
+Wire Wire Line
+	9300 28900 9300 28700
+Connection ~ 8250 29850
+Wire Wire Line
+	8550 25500 8950 25500
+Wire Wire Line
+	8250 25750 8250 25800
+Wire Wire Line
+	9300 25900 9300 25800
+Wire Wire Line
+	9300 25800 8250 25800
+Connection ~ 8250 25800
+Wire Wire Line
+	8250 25800 8250 26100
+Wire Wire Line
+	8250 26500 8250 26950
+Wire Wire Line
+	8250 26950 9300 26950
+Wire Wire Line
+	8250 25250 8250 24850
+Wire Wire Line
+	8250 26950 8250 27350
+Connection ~ 8250 26950
+Wire Wire Line
+	9350 25500 10000 25500
+Text GLabel 10000 25500 2    50   Input ~ 0
+S3
+Text GLabel 7500 24850 0    50   Input ~ 0
+CELL3
+Wire Wire Line
+	7500 24850 8250 24850
+Wire Wire Line
+	9300 26950 9300 26800
+Wire Wire Line
+	9300 26400 9300 26200
+Wire Wire Line
+	8550 23000 8950 23000
+Wire Wire Line
+	8250 23250 8250 23300
+Wire Wire Line
+	9300 23400 9300 23300
+Wire Wire Line
+	9300 23300 8250 23300
+Connection ~ 8250 23300
+Wire Wire Line
+	8250 23300 8250 23600
+Wire Wire Line
+	8250 24000 8250 24450
+Wire Wire Line
+	8250 24450 9300 24450
+Wire Wire Line
+	8250 22750 8250 22350
+Wire Wire Line
+	8250 24450 8250 24850
+Connection ~ 8250 24450
+Wire Wire Line
+	9350 23000 10000 23000
+Text GLabel 10000 23000 2    50   Input ~ 0
+S4
+Text GLabel 7500 22350 0    50   Input ~ 0
+CELL4
+Wire Wire Line
+	7500 22350 8250 22350
+Wire Wire Line
+	9300 24450 9300 24300
+Connection ~ 8250 24850
+Connection ~ 8250 27350
+Wire Wire Line
+	8550 20500 8950 20500
+Wire Wire Line
+	8250 20750 8250 20800
+Wire Wire Line
+	9300 20900 9300 20800
+Wire Wire Line
+	9300 20800 8250 20800
+Connection ~ 8250 20800
+Wire Wire Line
+	8250 20800 8250 21100
+Wire Wire Line
+	8250 21500 8250 21950
+Wire Wire Line
+	8250 21950 9300 21950
+Wire Wire Line
+	8250 20250 8250 19850
+Wire Wire Line
+	8250 21950 8250 22350
+Connection ~ 8250 21950
+Wire Wire Line
+	9350 20500 10000 20500
+Text GLabel 10000 20500 2    50   Input ~ 0
+S5
+Text GLabel 7500 19850 0    50   Input ~ 0
+CELL5
+Wire Wire Line
+	7500 19850 8250 19850
+Wire Wire Line
+	9300 21950 9300 21800
+Wire Wire Line
+	9300 21400 9300 21200
+Wire Wire Line
+	8550 18000 8950 18000
+Wire Wire Line
+	8250 18250 8250 18300
+Wire Wire Line
+	9300 18400 9300 18300
+Wire Wire Line
+	9300 18300 8250 18300
+Connection ~ 8250 18300
+Wire Wire Line
+	8250 18300 8250 18600
+Wire Wire Line
+	8250 19000 8250 19450
+Wire Wire Line
+	8250 19450 9300 19450
+Wire Wire Line
+	8250 17750 8250 17350
+Wire Wire Line
+	8250 19450 8250 19850
+Connection ~ 8250 19450
+Wire Wire Line
+	9350 18000 10000 18000
+Text GLabel 10000 18000 2    50   Input ~ 0
+S6
+Text GLabel 7500 17350 0    50   Input ~ 0
+CELL6
+Wire Wire Line
+	7500 17350 8250 17350
+Wire Wire Line
+	9300 19450 9300 19300
+Wire Wire Line
+	9300 18900 9300 18700
+Connection ~ 8250 19850
+Wire Wire Line
+	8550 15500 8950 15500
+Wire Wire Line
+	8250 15750 8250 15800
+Wire Wire Line
+	9300 15900 9300 15800
+Wire Wire Line
+	9300 15800 8250 15800
+Connection ~ 8250 15800
+Wire Wire Line
+	8250 15800 8250 16100
+Wire Wire Line
+	8250 16500 8250 16950
+Wire Wire Line
+	8250 16950 9300 16950
+Wire Wire Line
+	8250 15250 8250 14850
+Wire Wire Line
+	8250 16950 8250 17350
+Connection ~ 8250 16950
+Wire Wire Line
+	9350 15500 10000 15500
+Text GLabel 10000 15500 2    50   Input ~ 0
+S7
+Text GLabel 7500 14850 0    50   Input ~ 0
+CELL7
+Wire Wire Line
+	7500 14850 8250 14850
+Wire Wire Line
+	9300 16950 9300 16800
+Wire Wire Line
+	9300 16400 9300 16200
+Wire Wire Line
+	8550 13000 8950 13000
+Wire Wire Line
+	8250 13250 8250 13300
+Wire Wire Line
+	9300 13400 9300 13300
+Wire Wire Line
+	9300 13300 8250 13300
+Connection ~ 8250 13300
+Wire Wire Line
+	8250 13300 8250 13600
+Wire Wire Line
+	8250 14000 8250 14450
+Wire Wire Line
+	8250 14450 9300 14450
+Wire Wire Line
+	8250 12750 8250 12350
+Wire Wire Line
+	8250 14450 8250 14850
+Connection ~ 8250 14450
+Wire Wire Line
+	9350 13000 10000 13000
+Text GLabel 10000 13000 2    50   Input ~ 0
+S8
+Text GLabel 7500 12350 0    50   Input ~ 0
+CELL8
+Wire Wire Line
+	7500 12350 8250 12350
+Wire Wire Line
+	9300 14450 9300 14300
+Wire Wire Line
+	9300 13900 9300 13700
+Connection ~ 8250 14850
+Connection ~ 8250 17350
+Connection ~ 8250 22350
+Wire Wire Line
+	8550 10500 8950 10500
+Wire Wire Line
+	8250 10750 8250 10800
+Wire Wire Line
+	9300 10900 9300 10800
+Wire Wire Line
+	9300 10800 8250 10800
+Connection ~ 8250 10800
+Wire Wire Line
+	8250 10800 8250 11100
+Wire Wire Line
+	8250 11500 8250 11950
+Wire Wire Line
+	8250 11950 9300 11950
+Wire Wire Line
+	8250 10250 8250 9850
+Wire Wire Line
+	8250 11950 8250 12350
+Connection ~ 8250 11950
+Wire Wire Line
+	9350 10500 10000 10500
+Text GLabel 10000 10500 2    50   Input ~ 0
+S9
+Text GLabel 7500 9850 0    50   Input ~ 0
+CELL9
+Wire Wire Line
+	7500 9850 8250 9850
+Wire Wire Line
+	9300 11950 9300 11800
+Wire Wire Line
+	9300 11400 9300 11200
+Wire Wire Line
+	8550 8000 8950 8000
+Wire Wire Line
+	8250 8250 8250 8300
+Wire Wire Line
+	9300 8400 9300 8300
+Wire Wire Line
+	9300 8300 8250 8300
+Connection ~ 8250 8300
+Wire Wire Line
+	8250 8300 8250 8600
+Wire Wire Line
+	8250 9000 8250 9450
+Wire Wire Line
+	8250 9450 9300 9450
+Wire Wire Line
+	8250 7750 8250 7350
+Wire Wire Line
+	8250 9450 8250 9850
+Connection ~ 8250 9450
+Wire Wire Line
+	9350 8000 10000 8000
+Text GLabel 10000 8000 2    50   Input ~ 0
+S10
+Text GLabel 7500 7350 0    50   Input ~ 0
+CELL10
+Wire Wire Line
+	7500 7350 8250 7350
+Wire Wire Line
+	9300 9450 9300 9300
+Wire Wire Line
+	9300 8900 9300 8700
+Connection ~ 8250 9850
+Wire Wire Line
+	8550 5500 8950 5500
+Wire Wire Line
+	8250 5750 8250 5800
+Wire Wire Line
+	9300 5900 9300 5800
+Wire Wire Line
+	9300 5800 8250 5800
+Connection ~ 8250 5800
+Wire Wire Line
+	8250 5800 8250 6100
+Wire Wire Line
+	8250 6500 8250 6950
+Wire Wire Line
+	8250 6950 9300 6950
+Wire Wire Line
+	8250 5250 8250 4850
+Wire Wire Line
+	8250 6950 8250 7350
+Connection ~ 8250 6950
+Wire Wire Line
+	9350 5500 10000 5500
+Text GLabel 10000 5500 2    50   Input ~ 0
+S11
+Text GLabel 7500 4850 0    50   Input ~ 0
+CELL11
+Wire Wire Line
+	7500 4850 8250 4850
+Wire Wire Line
+	9300 6950 9300 6800
+Wire Wire Line
+	9300 6400 9300 6200
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q12
+U 1 1 5BEC972E
+P 8250 3000
+F 0 "Q12" H 8390 2901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 2992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 2700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 3091 60  0001 L CNN
+F 4 "unipolar" H 8250 3000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 3000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 3000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 3000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 3000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 3000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 3000 50  0001 C CNN "P/N"
+	1    8250 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 3250 8250 3300
+Wire Wire Line
+	9300 3400 9300 3300
+Wire Wire Line
+	9300 3300 8250 3300
+Connection ~ 8250 3300
+Wire Wire Line
+	8250 3300 8250 3600
+Wire Wire Line
+	8250 4000 8250 4450
+Wire Wire Line
+	8250 4450 9300 4450
+Wire Wire Line
+	8250 2750 8250 2350
+Wire Wire Line
+	8250 4450 8250 4850
+Connection ~ 8250 4450
+Text GLabel 10000 3000 2    50   Input ~ 0
+S12
+Text GLabel 7500 2350 0    50   Input ~ 0
+CELL12
+Wire Wire Line
+	7500 2350 8250 2350
+Wire Wire Line
+	9300 4450 9300 4300
+Wire Wire Line
+	9300 3900 9300 3700
+Connection ~ 8250 4850
+Connection ~ 8250 7350
+Connection ~ 8250 12350
+Text GLabel 2900 23400 0    50   Input ~ 0
+CELL1
+Text GLabel 4800 23400 2    50   Input ~ 0
+C1
+Wire Wire Line
+	2900 23400 3350 23400
+Wire Wire Line
+	3750 23400 4300 23400
+Wire Wire Line
+	4300 23750 4300 23400
+Connection ~ 4300 23400
+Wire Wire Line
+	4300 23400 4800 23400
+Text GLabel 2900 22350 0    50   Input ~ 0
+CELL2
+Text GLabel 4800 22350 2    50   Input ~ 0
+C2
+Wire Wire Line
+	2900 22350 3350 22350
+Wire Wire Line
+	3750 22350 4300 22350
+Wire Wire Line
+	4300 22700 4300 22350
+Connection ~ 4300 22350
+Wire Wire Line
+	4300 22350 4800 22350
+Wire Wire Line
+	4300 23000 4300 23400
+Text GLabel 2900 21300 0    50   Input ~ 0
+CELL3
+Text GLabel 4800 21300 2    50   Input ~ 0
+C3
+Wire Wire Line
+	2900 21300 3350 21300
+Wire Wire Line
+	3750 21300 4300 21300
+Wire Wire Line
+	4300 21650 4300 21300
+Connection ~ 4300 21300
+Wire Wire Line
+	4300 21300 4800 21300
+Wire Wire Line
+	4300 21950 4300 22350
+Text GLabel 2900 20250 0    50   Input ~ 0
+CELL4
+Text GLabel 4800 20250 2    50   Input ~ 0
+C4
+Wire Wire Line
+	2900 20250 3350 20250
+Wire Wire Line
+	3750 20250 4300 20250
+Wire Wire Line
+	4300 20600 4300 20250
+Connection ~ 4300 20250
+Wire Wire Line
+	4300 20250 4800 20250
+Wire Wire Line
+	4300 20900 4300 21300
+Text GLabel 2900 19200 0    50   Input ~ 0
+CELL5
+Text GLabel 4800 19200 2    50   Input ~ 0
+C5
+Wire Wire Line
+	2900 19200 3350 19200
+Wire Wire Line
+	3750 19200 4300 19200
+Wire Wire Line
+	4300 19550 4300 19200
+Connection ~ 4300 19200
+Wire Wire Line
+	4300 19200 4800 19200
+Wire Wire Line
+	4300 19850 4300 20250
+Text GLabel 2900 18150 0    50   Input ~ 0
+CELL6
+Text GLabel 4800 18150 2    50   Input ~ 0
+C6
+Wire Wire Line
+	2900 18150 3350 18150
+Wire Wire Line
+	3750 18150 4300 18150
+Wire Wire Line
+	4300 18500 4300 18150
+Connection ~ 4300 18150
+Wire Wire Line
+	4300 18150 4800 18150
+Wire Wire Line
+	4300 18800 4300 19200
+Text GLabel 2900 17100 0    50   Input ~ 0
+CELL7
+Text GLabel 4800 17100 2    50   Input ~ 0
+C7
+Wire Wire Line
+	2900 17100 3350 17100
+Wire Wire Line
+	3750 17100 4300 17100
+Wire Wire Line
+	4300 17450 4300 17100
+Connection ~ 4300 17100
+Wire Wire Line
+	4300 17100 4800 17100
+Wire Wire Line
+	4300 17750 4300 18150
+Text GLabel 2900 16050 0    50   Input ~ 0
+CELL8
+Text GLabel 4800 16050 2    50   Input ~ 0
+C8
+Wire Wire Line
+	2900 16050 3350 16050
+Wire Wire Line
+	3750 16050 4300 16050
+Wire Wire Line
+	4300 16400 4300 16050
+Connection ~ 4300 16050
+Wire Wire Line
+	4300 16050 4800 16050
+Wire Wire Line
+	4300 16700 4300 17100
+Text GLabel 2900 15000 0    50   Input ~ 0
+CELL9
+Text GLabel 4800 15000 2    50   Input ~ 0
+C9
+Wire Wire Line
+	2900 15000 3350 15000
+Wire Wire Line
+	3750 15000 4300 15000
+Wire Wire Line
+	4300 15350 4300 15000
+Connection ~ 4300 15000
+Wire Wire Line
+	4300 15000 4800 15000
+Wire Wire Line
+	4300 15650 4300 16050
+Text GLabel 2900 13950 0    50   Input ~ 0
+CELL10
+Text GLabel 4800 13950 2    50   Input ~ 0
+C10
+Wire Wire Line
+	2900 13950 3350 13950
+Wire Wire Line
+	3750 13950 4300 13950
+Wire Wire Line
+	4300 14300 4300 13950
+Connection ~ 4300 13950
+Wire Wire Line
+	4300 13950 4800 13950
+Wire Wire Line
+	4300 14600 4300 15000
+Text GLabel 2900 12900 0    50   Input ~ 0
+CELL11
+Text GLabel 4800 12900 2    50   Input ~ 0
+C11
+Wire Wire Line
+	2900 12900 3350 12900
+Wire Wire Line
+	3750 12900 4300 12900
+Wire Wire Line
+	4300 13250 4300 12900
+Connection ~ 4300 12900
+Wire Wire Line
+	4300 12900 4800 12900
+Wire Wire Line
+	4300 13550 4300 13950
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C12
+U 1 1 5BF4A22C
+P 4300 12400
+F 0 "C12" H 4408 12545 45  0000 L CNN
+F 1 "0.01uF" H 4408 12461 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 12650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 12400 50  0001 C CNN
+F 4 "10%" H 4408 12366 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 12400 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 12400 50  0001 C CNN "Material"
+F 7 "50V" H 4300 12400 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 12400 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 12400 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 12400 50  0001 C CNN "P/N"
+	1    4300 12400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 11850 0    50   Input ~ 0
+CELL12
+Text GLabel 4800 11850 2    50   Input ~ 0
+C12
+Wire Wire Line
+	2900 11850 3350 11850
+Wire Wire Line
+	3750 11850 4300 11850
+Wire Wire Line
+	4300 12200 4300 11850
+Connection ~ 4300 11850
+Wire Wire Line
+	4300 11850 4800 11850
+Wire Wire Line
+	4300 12500 4300 12900
+Text GLabel 3650 8850 0    50   Input ~ 0
+CELL1
+Text GLabel 3650 8750 0    50   Input ~ 0
+CELL2
+Text GLabel 3650 8650 0    50   Input ~ 0
+CELL3
+Text GLabel 3650 8550 0    50   Input ~ 0
+CELL4
+Text GLabel 3650 8450 0    50   Input ~ 0
+CELL5
+Text GLabel 3650 8350 0    50   Input ~ 0
+CELL6
+Text GLabel 3650 8250 0    50   Input ~ 0
+CELL7
+Text GLabel 3650 8150 0    50   Input ~ 0
+CELL8
+Text GLabel 3650 8050 0    50   Input ~ 0
+CELL9
+Text GLabel 3650 7950 0    50   Input ~ 0
+CELL10
+Text GLabel 3650 7850 0    50   Input ~ 0
+CELL11
+Text GLabel 3650 7750 0    50   Input ~ 0
+CELL12
+Wire Wire Line
+	3650 7750 4100 7750
+Wire Wire Line
+	3650 7850 4100 7850
+Wire Wire Line
+	3650 7950 4100 7950
+Wire Wire Line
+	3650 8050 4100 8050
+Wire Wire Line
+	3650 8150 4100 8150
+Wire Wire Line
+	3650 8250 4100 8250
+Wire Wire Line
+	3650 8350 4100 8350
+Wire Wire Line
+	3650 8450 4100 8450
+Wire Wire Line
+	3650 8550 4100 8550
+Wire Wire Line
+	3650 8650 4100 8650
+Wire Wire Line
+	3650 8750 4100 8750
+Wire Wire Line
+	3650 8850 4100 8850
+$Comp
+L UT1-2810-601-rescue:MOUNT_HOLE-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue M1
+U 1 1 5C05030A
+P 17750 30200
+F 0 "M1" H 17849 30200 50  0000 L CNN
+F 1 "MOUNT_HOLE" H 17750 30050 50  0001 C CNN
+F 2 "Hardware:STAND-OFF" H 17775 29975 50  0001 C CNN
+F 3 "" H 17750 30200 50  0000 C CNN
+	1    17750 30200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOUNT_HOLE-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue M2
+U 1 1 5C0507EA
+P 18500 30200
+F 0 "M2" H 18599 30200 50  0000 L CNN
+F 1 "MOUNT_HOLE" H 18500 30050 50  0001 C CNN
+F 2 "Hardware:STAND-OFF" H 18525 29975 50  0001 C CNN
+F 3 "" H 18500 30200 50  0000 C CNN
+	1    18500 30200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOUNT_HOLE-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue M3
+U 1 1 5C050A07
+P 19250 30200
+F 0 "M3" H 19349 30200 50  0000 L CNN
+F 1 "MOUNT_HOLE" H 19250 30050 50  0001 C CNN
+F 2 "Hardware:STAND-OFF" H 19275 29975 50  0001 C CNN
+F 3 "" H 19250 30200 50  0000 C CNN
+	1    19250 30200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOUNT_HOLE-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue M4
+U 1 1 5C050C86
+P 19950 30200
+F 0 "M4" H 20049 30200 50  0000 L CNN
+F 1 "MOUNT_HOLE" H 19950 30050 50  0001 C CNN
+F 2 "Hardware:STAND-OFF" H 19975 29975 50  0001 C CNN
+F 3 "" H 19950 30200 50  0000 C CNN
+	1    19950 30200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LTC6255IS6TRMPBF-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue U3
+U 1 1 5C0519D8
+P 16200 27600
+F 0 "U3" H 16200 28170 50  0000 C CNN
+F 1 "LTC6255IS6TRMPBF" H 16200 28079 50  0000 C CNN
+F 2 "LTC6255IS6TRMPBF:SOT95P280X100-6N" H 16200 27600 50  0001 L BNN
+F 3 "https://octopart.com/search?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA&q=LTC6255IS6TRMPBF&start=0" H 16200 27600 50  0001 L BNN
+F 4 "RRIO Op Amps" H 16200 27600 50  0001 L BNN "Tolerance"
+F 5 "SC-Amps/Industrial Single 6.5MHz, 65uA" H 16200 27600 50  0001 L BNN "Power"
+F 6 "Linear Technology/Analog" H 16200 27600 50  0001 L BNN "Material"
+F 7 "1.8V to 5.25V" H 16200 27600 50  0001 L BNN "Voltage"
+F 8 "Automotive" H 16200 27600 50  0001 L BNN "Temperature"
+F 9 "Analog Devices/Linear Technology" H 16200 27600 50  0001 C CNN "Manufacture"
+F 10 "LTC6255IS6TRMPBF" H 16200 27600 50  0001 C CNN "P/N"
+	1    16200 27600
+	1    0    0    -1  
+$EndComp
+Text GLabel 15150 27400 0    50   Input ~ 0
+VREG
+Wire Wire Line
+	14650 27600 15500 27600
+NoConn ~ 15500 27800
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR05
+U 1 1 5C08AA06
+P 15150 28150
+F 0 "#PWR05" H 15150 27900 50  0001 C CNN
+F 1 "GND" H 15150 28000 50  0001 C CNN
+F 2 "" H 15150 28150 60  0000 C CNN
+F 3 "" H 15150 28150 60  0000 C CNN
+	1    15150 28150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 27700 14650 27700
+Wire Wire Line
+	14650 27700 14650 28450
+Wire Wire Line
+	14650 28450 17000 28450
+Wire Wire Line
+	17000 27400 16900 27400
+Text GLabel 18250 27400 2    50   Input ~ 0
+GPIO1
+Wire Wire Line
+	17000 27400 17000 28450
+Wire Wire Line
+	17000 27400 17500 27400
+Connection ~ 17000 27400
+Wire Wire Line
+	17900 27400 18250 27400
+Text GLabel 15200 25800 0    50   Input ~ 0
+GPIO2
+Text GLabel 15200 25900 0    50   Input ~ 0
+GPIO3
+Text GLabel 15200 26000 0    50   Input ~ 0
+GPIO4
+Wire Wire Line
+	15200 25800 15900 25800
+Wire Wire Line
+	15900 25900 15200 25900
+Wire Wire Line
+	15200 26000 15900 26000
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR04
+U 1 1 5C11FE7B
+P 15250 26700
+F 0 "#PWR04" H 15250 26450 50  0001 C CNN
+F 1 "GND" H 15250 26550 50  0001 C CNN
+F 2 "" H 15250 26700 60  0000 C CNN
+F 3 "" H 15250 26700 60  0000 C CNN
+	1    15250 26700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 26200 15900 26200
+Wire Wire Line
+	16600 25600 16800 25600
+Wire Wire Line
+	16800 24800 15400 24800
+Wire Wire Line
+	16900 25700 16600 25700
+Wire Wire Line
+	16600 25800 17000 25800
+Wire Wire Line
+	17100 25900 16600 25900
+Wire Wire Line
+	16600 26000 17200 26000
+Wire Wire Line
+	17300 26100 16600 26100
+Wire Wire Line
+	16600 26200 17400 26200
+Wire Wire Line
+	17500 26300 16600 26300
+Text GLabel 15200 25350 0    50   Input ~ 0
+VREG
+Text GLabel 15150 21250 0    50   Input ~ 0
+VREG
+Wire Wire Line
+	15200 24600 16000 24600
+Wire Wire Line
+	15200 24500 16300 24500
+Wire Wire Line
+	15200 24400 16600 24400
+Wire Wire Line
+	15200 24300 16900 24300
+Wire Wire Line
+	15200 24200 17200 24200
+Wire Wire Line
+	15200 24100 17500 24100
+Wire Wire Line
+	17500 24100 17500 24000
+Wire Wire Line
+	17200 23700 17200 24200
+Connection ~ 17200 24200
+Wire Wire Line
+	17200 24200 17400 24200
+Wire Wire Line
+	16900 23400 16900 24300
+Connection ~ 16900 24300
+Wire Wire Line
+	16900 24300 17300 24300
+Wire Wire Line
+	16600 23100 16600 24400
+Connection ~ 16600 24400
+Wire Wire Line
+	16600 24400 17200 24400
+Wire Wire Line
+	16300 22800 16300 24500
+Connection ~ 16300 24500
+Wire Wire Line
+	16300 24500 17100 24500
+Wire Wire Line
+	16000 22500 16000 24600
+Connection ~ 16000 24600
+Wire Wire Line
+	16000 24600 17000 24600
+Wire Wire Line
+	15700 22200 15700 24700
+Wire Wire Line
+	15200 24700 15700 24700
+Connection ~ 15700 24700
+Wire Wire Line
+	15700 24700 16900 24700
+Wire Wire Line
+	15400 21900 15400 24800
+Connection ~ 15400 24800
+Wire Wire Line
+	15400 24800 15200 24800
+Wire Wire Line
+	15150 21250 15400 21250
+Wire Wire Line
+	15400 21250 15400 21500
+Wire Wire Line
+	15400 21250 15700 21250
+Wire Wire Line
+	15700 21250 15700 21800
+Connection ~ 15400 21250
+Wire Wire Line
+	15700 21250 16000 21250
+Wire Wire Line
+	16000 21250 16000 22100
+Connection ~ 15700 21250
+Wire Wire Line
+	16000 21250 16300 21250
+Wire Wire Line
+	16300 21250 16300 22400
+Connection ~ 16000 21250
+Wire Wire Line
+	16300 21250 16600 21250
+Wire Wire Line
+	16600 21250 16600 22700
+Connection ~ 16300 21250
+Wire Wire Line
+	16600 21250 16900 21250
+Wire Wire Line
+	16900 21250 16900 23000
+Connection ~ 16600 21250
+Wire Wire Line
+	16900 21250 17200 21250
+Wire Wire Line
+	17200 21250 17200 23300
+Connection ~ 16900 21250
+Wire Wire Line
+	17200 21250 17500 21250
+Wire Wire Line
+	17500 21250 17500 23600
+Connection ~ 17200 21250
+$Comp
+L UT1-2810-601-rescue:LTC6804IG-2#PBF-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue U1
+U 1 1 5C5A304A
+P 13950 7300
+F 0 "U1" H 13950 9065 50  0000 C CNN
+F 1 "LTC6804IG-2#PBF" H 13950 8974 50  0000 C CNN
+F 2 "LTC6811HG-1_PBF:SOP50P780X200-48N" H 13950 8450 50  0001 C CNN
+F 3 "Linear Tech. LTC6804IG-2#PBG" H 13950 8450 50  0001 C CNN
+	1    13950 7300
+	1    0    0    -1  
+$EndComp
+Text GLabel 12950 8650 0    50   Input ~ 0
+S1
+Text GLabel 12950 8550 0    50   Input ~ 0
+C1
+Text GLabel 12950 8400 0    50   Input ~ 0
+S2
+Text GLabel 12950 8300 0    50   Input ~ 0
+C2
+Text GLabel 12950 8150 0    50   Input ~ 0
+S3
+Text GLabel 12950 8050 0    50   Input ~ 0
+C3
+Text GLabel 12950 7900 0    50   Input ~ 0
+S4
+Text GLabel 12950 7800 0    50   Input ~ 0
+C4
+Text GLabel 12950 7650 0    50   Input ~ 0
+S5
+Text GLabel 12950 7550 0    50   Input ~ 0
+C5
+Text GLabel 12950 7400 0    50   Input ~ 0
+S6
+Text GLabel 12950 7300 0    50   Input ~ 0
+C6
+Text GLabel 12950 7150 0    50   Input ~ 0
+S7
+Text GLabel 12950 7050 0    50   Input ~ 0
+C7
+Text GLabel 12950 6900 0    50   Input ~ 0
+S8
+Text GLabel 12950 6800 0    50   Input ~ 0
+C8
+Text GLabel 12950 6650 0    50   Input ~ 0
+S9
+Text GLabel 12950 6550 0    50   Input ~ 0
+C9
+Text GLabel 12950 6400 0    50   Input ~ 0
+S10
+Text GLabel 12950 6300 0    50   Input ~ 0
+C10
+Text GLabel 12950 6150 0    50   Input ~ 0
+S11
+Text GLabel 12950 6050 0    50   Input ~ 0
+C11
+Text GLabel 12950 5900 0    50   Input ~ 0
+S12
+Text GLabel 12950 5800 0    50   Input ~ 0
+C12
+Text GLabel 14950 5950 2    50   Input ~ 0
+IA_P
+Text GLabel 14950 6250 2    50   Input ~ 0
+IA_N
+Text GLabel 14950 6450 2    50   Input ~ 0
+A0
+Text GLabel 14950 6550 2    50   Input ~ 0
+A1
+Text GLabel 14950 6650 2    50   Input ~ 0
+A2
+Text GLabel 14950 6750 2    50   Input ~ 0
+A3
+Text GLabel 14950 6950 2    50   Input ~ 0
+GPIO1
+Text GLabel 14950 7050 2    50   Input ~ 0
+GPIO2
+Text GLabel 14950 7150 2    50   Input ~ 0
+GPIO3
+Text GLabel 14950 7250 2    50   Input ~ 0
+GPIO4
+Text GLabel 19300 5300 2    50   Input ~ 0
+CELL12
+Wire Wire Line
+	13300 5800 12950 5800
+Wire Wire Line
+	12950 5900 13300 5900
+Wire Wire Line
+	13300 6050 12950 6050
+Wire Wire Line
+	12950 6150 13300 6150
+Wire Wire Line
+	12950 6300 13300 6300
+Wire Wire Line
+	13300 6400 12950 6400
+Wire Wire Line
+	12950 6550 13300 6550
+Wire Wire Line
+	13300 6650 12950 6650
+Wire Wire Line
+	12950 6800 13300 6800
+Wire Wire Line
+	13300 6900 12950 6900
+Wire Wire Line
+	12950 7050 13300 7050
+Wire Wire Line
+	13300 7150 12950 7150
+Wire Wire Line
+	12950 7300 13300 7300
+Wire Wire Line
+	13300 7400 12950 7400
+Wire Wire Line
+	12950 7550 13300 7550
+Wire Wire Line
+	13300 7650 12950 7650
+Wire Wire Line
+	12950 7800 13300 7800
+Wire Wire Line
+	13300 7900 12950 7900
+Wire Wire Line
+	12950 8050 13300 8050
+Wire Wire Line
+	13300 8150 12950 8150
+Wire Wire Line
+	12950 8300 13300 8300
+Wire Wire Line
+	13300 8400 12950 8400
+Wire Wire Line
+	12950 8550 13300 8550
+Wire Wire Line
+	13300 8650 12950 8650
+Wire Wire Line
+	13300 8800 12800 8800
+Wire Wire Line
+	14950 7250 14600 7250
+Wire Wire Line
+	14600 7150 14950 7150
+Wire Wire Line
+	14950 7050 14600 7050
+Wire Wire Line
+	14600 6950 14950 6950
+Wire Wire Line
+	14950 6750 14600 6750
+Wire Wire Line
+	14600 6650 14950 6650
+Wire Wire Line
+	14950 6550 14600 6550
+Wire Wire Line
+	14600 6450 14950 6450
+Wire Wire Line
+	14600 6250 14950 6250
+Text GLabel 13600 11650 0    50   Input ~ 0
+A0
+Text GLabel 13600 11550 0    50   Input ~ 0
+A1
+Text GLabel 13600 11450 0    50   Input ~ 0
+A2
+Text GLabel 13600 11350 0    50   Input ~ 0
+A3
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR08
+U 1 1 5CBED22D
+P 3100 9100
+F 0 "#PWR08" H 3100 8850 50  0001 C CNN
+F 1 "GND" H 3100 8950 50  0001 C CNN
+F 2 "" H 3100 9100 60  0000 C CNN
+F 3 "" H 3100 9100 60  0000 C CNN
+	1    3100 9100
+	1    0    0    -1  
+$EndComp
+Text Notes 14200 10650 0    276  ~ 0
+Addressing\n
+Wire Wire Line
+	14600 6150 15350 6150
+Wire Wire Line
+	14600 6050 15950 6050
+Wire Wire Line
+	15750 6150 15950 6150
+Wire Wire Line
+	15950 6150 15950 6050
+Connection ~ 15950 6050
+Wire Wire Line
+	15950 6050 16100 6050
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR07
+U 1 1 5CDAAFA4
+P 16700 6200
+F 0 "#PWR07" H 16700 5950 50  0001 C CNN
+F 1 "GND" H 16700 6050 50  0001 C CNN
+F 2 "" H 16700 6200 60  0000 C CNN
+F 3 "" H 16700 6200 60  0000 C CNN
+	1    16700 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 6050 16700 6050
+Wire Wire Line
+	16700 6050 16700 6200
+Wire Wire Line
+	16700 6050 16700 5750
+Connection ~ 16700 6050
+Wire Wire Line
+	14600 5950 14950 5950
+Wire Wire Line
+	18850 5300 19150 5300
+Wire Wire Line
+	18350 5650 18350 5300
+Wire Wire Line
+	18350 5300 18450 5300
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR09
+U 1 1 5CE5ED3D
+P 18350 6300
+F 0 "#PWR09" H 18350 6050 50  0001 C CNN
+F 1 "GND" H 18350 6150 50  0001 C CNN
+F 2 "" H 18350 6300 60  0000 C CNN
+F 3 "" H 18350 6300 60  0000 C CNN
+	1    18350 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18350 5950 18350 6300
+Wire Wire Line
+	17800 7500 17800 7100
+Wire Wire Line
+	17800 5300 18350 5300
+Connection ~ 18350 5300
+Wire Wire Line
+	17600 5000 19150 5000
+Wire Wire Line
+	19150 5000 19150 5300
+Connection ~ 19150 5300
+Wire Wire Line
+	19150 5300 19300 5300
+Wire Wire Line
+	17200 5000 16700 5000
+Wire Wire Line
+	14900 5000 14900 5800
+Wire Wire Line
+	14900 5800 14600 5800
+Wire Wire Line
+	14600 8000 15000 8000
+Wire Wire Line
+	17800 8000 17800 7900
+Wire Wire Line
+	17800 8000 19150 8000
+Connection ~ 17800 8000
+Text GLabel 19150 8000 2    50   Output ~ 0
+VREG
+NoConn ~ 14600 7550
+Wire Wire Line
+	14600 7850 15000 7850
+Wire Wire Line
+	15000 7850 15000 8000
+Connection ~ 15000 8000
+Wire Wire Line
+	15000 8000 16550 8000
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR06
+U 1 1 5D033230
+P 16300 9700
+F 0 "#PWR06" H 16300 9450 50  0001 C CNN
+F 1 "GND" H 16300 9550 50  0001 C CNN
+F 2 "" H 16300 9700 60  0000 C CNN
+F 3 "" H 16300 9700 60  0000 C CNN
+	1    16300 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 8150 17450 8000
+Connection ~ 17450 8000
+Wire Wire Line
+	17450 8000 17800 8000
+Wire Wire Line
+	17450 8450 17450 8650
+Wire Wire Line
+	16550 8350 16550 8000
+Connection ~ 16550 8000
+Wire Wire Line
+	16550 8000 17450 8000
+Wire Wire Line
+	14600 8150 16300 8150
+Wire Wire Line
+	16300 8150 16300 9300
+Wire Wire Line
+	14600 8300 15350 8300
+Wire Wire Line
+	15350 8300 15350 8550
+Wire Wire Line
+	15350 8850 15350 9300
+Wire Wire Line
+	15350 9300 16300 9300
+Wire Wire Line
+	14950 8800 14950 8450
+Wire Wire Line
+	14950 8450 14600 8450
+Connection ~ 15350 9300
+Wire Wire Line
+	14950 9100 14950 9300
+Connection ~ 14950 9300
+Wire Wire Line
+	14950 9300 15350 9300
+Wire Wire Line
+	14600 8650 14750 8650
+Wire Wire Line
+	14750 8650 14750 8800
+Wire Wire Line
+	14750 9300 14950 9300
+Wire Wire Line
+	14600 8800 14750 8800
+Connection ~ 14750 8800
+Wire Wire Line
+	14750 8800 14750 9300
+$Comp
+L UT1-2810-601-rescue:ADT1-1-Transformer-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue TR1
+U 1 1 5D312A69
+P 17050 15500
+F 0 "TR1" H 17050 15878 50  0000 C CNN
+F 1 "HM2101NLT" H 17050 15787 50  0000 C CNN
+F 2 "Transformers_SMD:HM2101NLT" H 17050 15150 50  0001 C CNN
+F 3 "http://download.siliconexpert.com/pdfs/2017/10/30/23/54/27/585/tnl_/manual/hm2101nl.pdf" H 17050 15500 50  0001 C CNN
+F 4 "2500V" H 17050 15500 50  0001 C CNN "Tolerance"
+F 5 "NA" H 17050 15500 50  0001 C CNN "Power"
+F 6 "Copper" H 17050 15500 50  0001 C CNN "Material"
+F 7 "1000Vrms" H 17050 15500 50  0001 C CNN "Voltage"
+F 8 "-45C to +125C" H 17050 15500 50  0001 C CNN "Temperature"
+F 9 "PULSE" H 17050 15500 50  0001 C CNN "Manufacture"
+F 10 "HM2101NL" H 17050 15500 50  0001 C CNN "P/N"
+	1    17050 15500
+	1    0    0    1   
+$EndComp
+Text GLabel 18450 15150 2    50   Input ~ 0
+IA_N
+Text GLabel 18450 15800 2    50   Input ~ 0
+IA_P
+Wire Wire Line
+	15050 14800 15050 15300
+Wire Wire Line
+	15050 15300 15350 15300
+Wire Wire Line
+	15350 15700 15050 15700
+Wire Wire Line
+	15050 15700 15050 16200
+$Comp
+L UT1-2810-601-rescue:CONN_02-SparkFun-Connectors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue J2
+U 1 1 5D640606
+P 12750 15000
+F 0 "J2" H 12522 14955 45  0000 R CNN
+F 1 "CONN_02" H 12522 15039 45  0000 R CNN
+F 2 "Connectors:1X02" H 12750 15250 20  0001 C CNN
+F 3 "" H 12750 15000 50  0001 C CNN
+	1    12750 15000
+	1    0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:CONN_02-SparkFun-Connectors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue J3
+U 1 1 5D64085D
+P 12750 15750
+F 0 "J3" H 12522 15705 45  0000 R CNN
+F 1 "CONN_02" H 12522 15789 45  0000 R CNN
+F 2 "Connectors:1X02" H 12750 16000 20  0001 C CNN
+F 3 "" H 12750 15750 50  0001 C CNN
+	1    12750 15750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	12850 15750 13400 15750
+Wire Wire Line
+	13400 15750 13400 15000
+Wire Wire Line
+	13400 15000 12850 15000
+Wire Wire Line
+	13400 15000 13400 14800
+Connection ~ 13400 15000
+Wire Wire Line
+	12850 15100 13200 15100
+Wire Wire Line
+	13200 15100 13200 15850
+Wire Wire Line
+	13200 15850 12850 15850
+Wire Wire Line
+	13200 15850 13200 16200
+Connection ~ 13200 15850
+Text Notes 17400 32600 0    197  ~ 0
+UT1-2810-601_3\n
+Text Notes 14750 14500 0    276  ~ 0
+isoSPI Interface\n
+Text Notes 13850 20750 0    276  ~ 0
+Analog Mux Addressing\n& GPIO Buffered ADC\n
+Text Notes 13650 4150 0    315  ~ 0
+LTC6804IG-2 Device\n\n
+Text Notes 2150 6900 0    276  ~ 0
+Cell Connections
+Text Notes 7200 1650 0    276  ~ 0
+Balancing Circuits
+Wire Wire Line
+	12800 8800 12800 9000
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR03
+U 1 1 5C90BF69
+P 12800 9000
+F 0 "#PWR03" H 12800 8750 50  0001 C CNN
+F 1 "GND" H 12800 8850 50  0001 C CNN
+F 2 "" H 12800 9000 60  0000 C CNN
+F 3 "" H 12800 9000 60  0000 C CNN
+	1    12800 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 24100 17500 26300
+Connection ~ 17500 24100
+Wire Wire Line
+	17400 26200 17400 24200
+Wire Wire Line
+	17300 24300 17300 26100
+Wire Wire Line
+	17200 26000 17200 24400
+Wire Wire Line
+	17100 24500 17100 25900
+Wire Wire Line
+	17000 25800 17000 24600
+Wire Wire Line
+	16900 24700 16900 25700
+Wire Wire Line
+	16800 25600 16800 24800
+Text Notes 17200 29750 0    276  ~ 0
+Mounting Holes
+Wire Wire Line
+	16300 9300 16300 9700
+Connection ~ 16300 9300
+Wire Wire Line
+	16550 9300 16300 9300
+Wire Wire Line
+	16550 8650 16550 9300
+Text Notes 4450 2500 0    197  ~ 0
+Top of Stack V+
+Text Notes 4550 30050 0    197  ~ 0
+Bottom of Stack
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR02
+U 1 1 5BEB853A
+P 8250 32350
+F 0 "#PWR02" H 8250 32100 50  0001 C CNN
+F 1 "GND" H 8250 32200 50  0001 C CNN
+F 2 "" H 8250 32350 60  0000 C CNN
+F 3 "" H 8250 32350 60  0000 C CNN
+	1    8250 32350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 32350 8250 31950
+Connection ~ 8250 31950
+Wire Wire Line
+	17450 9050 17450 9300
+Wire Wire Line
+	17450 9300 16550 9300
+Connection ~ 16550 9300
+Wire Wire Line
+	16700 5450 16700 5000
+Connection ~ 16700 5000
+Wire Wire Line
+	16700 5000 14900 5000
+Wire Wire Line
+	4300 24050 4300 24550
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR0101
+U 1 1 5C34B3B2
+P 4300 24550
+F 0 "#PWR0101" H 4300 24300 50  0001 C CNN
+F 1 "GND" H 4300 24400 50  0001 C CNN
+F 2 "" H 4300 24550 60  0000 C CNN
+F 3 "" H 4300 24550 60  0000 C CNN
+	1    4300 24550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 28000 15150 28000
+Wire Wire Line
+	15150 28000 15150 28150
+Wire Wire Line
+	15150 27400 15500 27400
+$Comp
+L UT1-2810-601-rescue:PWR_FLAG-power #FLG0101
+U 1 1 5BF2BAA2
+P 12750 27050
+F 0 "#FLG0101" H 12750 27125 50  0001 C CNN
+F 1 "PWR_FLAG" H 12750 27224 50  0000 C CNN
+F 2 "" H 12750 27050 50  0001 C CNN
+F 3 "~" H 12750 27050 50  0001 C CNN
+	1    12750 27050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:GNDPWR-power #PWR0102
+U 1 1 5BF2BE34
+P 12750 27550
+F 0 "#PWR0102" H 12750 27350 50  0001 C CNN
+F 1 "GNDPWR" H 12754 27396 50  0000 C CNN
+F 2 "" H 12750 27500 50  0001 C CNN
+F 3 "" H 12750 27500 50  0001 C CNN
+	1    12750 27550
+	1    0    0    -1  
+$EndComp
+Text GLabel 12400 27200 0    50   Input ~ 0
+VREG
+Wire Wire Line
+	12400 27200 12750 27200
+Wire Wire Line
+	12750 27050 12750 27200
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR0103
+U 1 1 5BF9783F
+P 12200 27700
+F 0 "#PWR0103" H 12200 27450 50  0001 C CNN
+F 1 "GND" H 12200 27550 50  0001 C CNN
+F 2 "" H 12200 27700 60  0000 C CNN
+F 3 "" H 12200 27700 60  0000 C CNN
+	1    12200 27700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 27400 12750 27400
+Wire Wire Line
+	12750 27400 12750 27550
+Wire Wire Line
+	12200 27400 12200 27700
+$Comp
+L UT1-2810-601-rescue:74HC4051-74xx U2
+U 1 1 5C0272E8
+P 16200 25900
+F 0 "U2" H 16250 26578 50  0000 C CNN
+F 1 "74HC4051" H 16250 26487 50  0000 C CNN
+F 2 "Silicon-Standard:TSSOP16" H 16200 25500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/74HC4051PW%2C118-Philips-datasheet-12517090.pdf" H 16200 25500 50  0001 C CNN
+F 4 "MIL-PRF-38535" H 16200 25900 50  0001 C CNN "Tolerance"
+F 5 "60mW" H 16200 25900 50  0001 C CNN "Power"
+F 6 "CMOS" H 16200 25900 50  0001 C CNN "Material"
+F 7 "2v to 6v" H 16200 25900 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 16200 25900 50  0001 C CNN "Temperature"
+F 9 "NXP Semiconductors" H 16200 25900 50  0001 C CNN "Manufacture"
+F 10 "74HC4051PW,118" H 16200 25900 50  0001 C CNN "P/N"
+	1    16200 25900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15900 25600 14650 25600
+Wire Wire Line
+	14650 25600 14650 27600
+Wire Wire Line
+	15250 26200 15250 26550
+Wire Wire Line
+	15250 26550 16200 26550
+Wire Wire Line
+	16300 26550 16300 26500
+Wire Wire Line
+	16200 26500 16200 26550
+Connection ~ 16200 26550
+Wire Wire Line
+	16200 26550 16300 26550
+Wire Wire Line
+	15250 26700 15250 26550
+Connection ~ 15250 26550
+Wire Wire Line
+	16200 25400 16200 25350
+Wire Wire Line
+	16200 25350 15200 25350
+Text Notes 12100 16100 0    79   ~ 0
+isoSPI OUT
+Text Notes 12200 14850 0    79   ~ 0
+isoSPI IN
+Wire Wire Line
+	4100 8950 3100 8950
+Wire Wire Line
+	3100 8950 3100 7650
+Wire Wire Line
+	3100 9100 3100 8950
+Connection ~ 3100 8950
+Wire Wire Line
+	3100 7650 4100 7650
+Text GLabel 17300 10850 0    50   Input ~ 0
+VREG
+$Comp
+L UT1-2810-601-rescue:Conn_01x14-Connector-BMS_6804IG-2_Slave_V1-rescue J1
+U 1 1 5C5BA77F
+P 4300 8350
+F 0 "J1" H 4219 7425 50  0000 C CNN
+F 1 "Conn_01x14" H 4219 7516 50  0000 C CNN
+F 2 "Connectors:1X14" H 4300 8350 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/022284143-Molex-datasheet-8335610.pdf" H 4300 8350 50  0001 C CNN
+F 4 "NA" H 4300 8350 50  0001 C CNN "Tolerance"
+F 5 "NA" H 4300 8350 50  0001 C CNN "Power"
+F 6 "Plastic/Nylon/Metal" H 4300 8350 50  0001 C CNN "Material"
+F 7 "100V" H 4300 8350 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 8350 50  0001 C CNN "Temperature"
+F 9 "Molex/GlenAir" H 4300 8350 50  0001 C CNN "Manufacture"
+F 10 "22-28-4143" H 4300 8350 50  0001 C CNN "P/N"
+	1    4300 8350
+	1    0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR0105
+U 1 1 5C625E36
+P 15800 13100
+F 0 "#PWR0105" H 15800 12850 50  0001 C CNN
+F 1 "GND" H 15800 12950 50  0001 C CNN
+F 2 "" H 15800 13100 60  0000 C CNN
+F 3 "" H 15800 13100 60  0000 C CNN
+	1    15800 13100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 11350 13850 11350
+$Comp
+L UT1-2810-601-rescue:24AA02-memory-BMS_6804IG-2_Slave_V1-rescue U4
+U 1 1 5C7F4A13
+P 15100 18600
+F 0 "U4" H 15541 18691 50  0000 L CNN
+F 1 "24AA02" H 15541 18600 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-5" H 15500 18850 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22124D.pdf" H 15541 18509 50  0000 L CNN
+F 4 "Automotive" H 15100 18600 50  0001 C CNN "Tolerance"
+F 5 "20mW" H 15100 18600 50  0001 C CNN "Power"
+F 6 "CMOS" H 15100 18600 50  0001 C CNN "Material"
+F 7 "1.8v to 5.5v" H 15100 18600 50  0001 C CNN "Voltage"
+F 8 "-45C to +125C" H 15100 18600 50  0001 C CNN "Temperature"
+F 9 "Microchip" H 15100 18600 50  0001 C CNN "Manufacture"
+F 10 "24AA02" H 15100 18600 50  0001 C CNN "P/N"
+	1    15100 18600
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:GND-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue #PWR0106
+U 1 1 5C7F52D6
+P 15100 19000
+F 0 "#PWR0106" H 15100 18750 50  0001 C CNN
+F 1 "GND" H 15100 18850 50  0001 C CNN
+F 2 "" H 15100 19000 60  0000 C CNN
+F 3 "" H 15100 19000 60  0000 C CNN
+	1    15100 19000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 18900 15100 19000
+Text GLabel 14800 18150 0    79   Input ~ 0
+VREG
+Wire Wire Line
+	14800 18150 15100 18150
+Wire Wire Line
+	15100 18150 15100 18300
+Text GLabel 14250 18500 0    79   Input ~ 0
+GPIO5
+Text GLabel 14250 18700 0    79   Input ~ 0
+GPIO4
+Wire Wire Line
+	14250 18500 14700 18500
+Wire Wire Line
+	14250 18700 14700 18700
+Text Notes 13850 17700 0    276  ~ 0
+EEPROM Storage\n
+$Comp
+L UT1-2810-601-rescue:SW_DIP_x04-Switch-BMS_6804IG-2_Slave_V1-rescue SW1
+U 1 1 5CAD3246
+P 16900 11550
+F 0 "SW1" H 16900 12017 50  0000 C CNN
+F 1 "SW_DIP_x04" H 16900 11926 50  0000 C CNN
+F 2 "Switches:DIPSWITCH-04-SMD" H 16900 11550 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/A6SN-4101-P-Omron-datasheet-10910204.pdf" H 16900 11550 50  0001 C CNN
+F 4 "1000 cycles" H 16900 11550 50  0001 C CNN "Tolerance"
+F 5 "25mA at 24VDC" H 16900 11550 50  0001 C CNN "Power"
+F 6 "Resin Hi Temp" H 16900 11550 50  0001 C CNN "Material"
+F 7 "24VDC" H 16900 11550 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 16900 11550 50  0001 C CNN "Temperature"
+F 9 "OMRON" H 16900 11550 50  0001 C CNN "Manufacture"
+F 10 "A6SN-4104" H 16900 11550 50  0001 C CNN "P/N"
+	1    16900 11550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 13100 15800 13000
+Wire Wire Line
+	15150 12700 15150 13000
+Wire Wire Line
+	15150 13000 15800 13000
+Connection ~ 15800 13000
+Wire Wire Line
+	15800 13000 15800 12950
+Wire Wire Line
+	15150 13000 14500 13000
+Wire Wire Line
+	14500 13000 14500 12450
+Connection ~ 15150 13000
+Wire Wire Line
+	14500 13000 13850 13000
+Wire Wire Line
+	13850 13000 13850 12200
+Connection ~ 14500 13000
+Wire Wire Line
+	13850 11800 13850 11350
+Connection ~ 13850 11350
+Wire Wire Line
+	13850 11350 16600 11350
+Wire Wire Line
+	13600 11450 14500 11450
+Wire Wire Line
+	13600 11650 15800 11650
+Wire Wire Line
+	14500 12050 14500 11450
+Connection ~ 14500 11450
+Wire Wire Line
+	14500 11450 16600 11450
+Wire Wire Line
+	15150 12300 15150 11550
+Wire Wire Line
+	13600 11550 15150 11550
+Connection ~ 15150 11550
+Wire Wire Line
+	15150 11550 16600 11550
+Wire Wire Line
+	15800 12550 15800 11650
+Connection ~ 15800 11650
+Wire Wire Line
+	15800 11650 16600 11650
+Wire Wire Line
+	17300 10850 17450 10850
+Wire Wire Line
+	17450 10850 17450 11350
+Wire Wire Line
+	17450 11650 17200 11650
+Wire Wire Line
+	17200 11550 17450 11550
+Connection ~ 17450 11550
+Wire Wire Line
+	17450 11550 17450 11650
+Wire Wire Line
+	17200 11450 17450 11450
+Connection ~ 17450 11450
+Wire Wire Line
+	17450 11450 17450 11550
+Wire Wire Line
+	17200 11350 17450 11350
+Connection ~ 17450 11350
+Wire Wire Line
+	17450 11350 17450 11450
+$Comp
+L UT1-2810-601-rescue:Conn_01x08-Connector-BMS_6804IG-2_Slave_V1-rescue J4
+U 1 1 5CF5D476
+P 15000 24500
+F 0 "J4" H 14920 23875 50  0000 C CNN
+F 1 "Conn_01x08" H 14920 23966 50  0000 C CNN
+F 2 "Connectors:1X08" H 15000 24500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/22-28-8081-Molex-datasheet-13787553.pdf" H 15000 24500 50  0001 C CNN
+F 4 "NA" H 15000 24500 50  0001 C CNN "Tolerance"
+F 5 "NA" H 15000 24500 50  0001 C CNN "Power"
+F 6 "Plastic/Nylon/Metal" H 15000 24500 50  0001 C CNN "Material"
+F 7 "100V" H 15000 24500 50  0001 C CNN "Voltage"
+F 8 "125C" H 15000 24500 50  0001 C CNN "Temperature"
+F 9 "Molex" H 15000 24500 50  0001 C CNN "Manufacture"
+F 10 "22-28-8081" H 15000 24500 50  0001 C CNN "P/N"
+	1    15000 24500
+	-1   0    0    1   
+$EndComp
+Text Notes 13400 16500 0    79   ~ 0
+R49 - Optional \nOnly Installed on Last BMS board for isoSPI termination
+Text GLabel 14950 7350 2    50   Input ~ 0
+GPIO5
+Wire Wire Line
+	14600 7350 14950 7350
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R1
+U 1 1 5C1FCBE2
+P 3550 23400
+F 0 "R1" H 3550 23700 45  0000 C CNN
+F 1 "100 ohm" H 3550 23616 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 23550 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 23400 60  0001 C CNN
+F 4 "1%" H 3550 23521 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 23400 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 23400 50  0001 C CNN "Material"
+F 7 "50V" H 3550 23400 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 23400 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 23400 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 23400 50  0001 C CNN "P/N"
+	1    3550 23400
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R36
+U 1 1 5C205D38
+P 9150 3000
+F 0 "R36" H 9150 3300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 3216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 3150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 3000 60  0001 C CNN
+F 4 "1%" H 9150 3121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 3000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 3000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 3000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 3000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 3000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 3000 50  0001 C CNN "P/N"
+	1    9150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R24
+U 1 1 5C243EB5
+P 8250 3800
+F 0 "R24" V 8155 3868 45  0000 L CNN
+F 1 "33 OHM" V 8239 3868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 3950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 3800 60  0001 C CNN
+F 4 "1%" V 8334 3868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 3800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 3800 50  0001 C CNN "Material"
+F 7 "High" V 8250 3800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 3800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 3800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 3800 50  0001 C CNN "P/N"
+	1    8250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R37
+U 1 1 5C2490E9
+P 9300 31600
+F 0 "R37" H 9300 31900 45  0000 C CNN
+F 1 "475 OHM" H 9300 31816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 31750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 31600 60  0001 C CNN
+F 4 "1%" H 9300 31721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 31600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 31600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 31600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 31600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 31600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 31600 50  0001 C CNN "P/N"
+	1    9300 31600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R61
+U 1 1 5C24DCCD
+P 17400 5000
+F 0 "R61" H 17400 5300 45  0000 C CNN
+F 1 "100 OHM" H 17400 5216 45  0000 C CNN
+F 2 "Resistors:0603" H 17400 5150 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f1000trf-nic+components-10477809?r=sp&s=YQg7UH0WQgmuFw3e-IfrbA" H 17400 5000 60  0001 C CNN
+F 4 "1%" H 17400 5121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 17400 5000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 17400 5000 50  0001 C CNN "Material"
+F 7 "50V" H 17400 5000 50  0001 C CNN "Voltage"
+	1    17400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3000 8950 3000
+Wire Wire Line
+	9350 3000 10000 3000
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R51
+U 1 1 5C2C0725
+P 15550 6150
+F 0 "R51" H 15550 6450 45  0000 C CNN
+F 1 "1.4K OHM" H 15550 6366 45  0000 C CNN
+F 2 "Resistors:0603" H 15550 6300 20  0001 C CNN
+F 3 "https://octopart.com/crcw06031k40fkea-vishay-39856971?r=sp&s=N5tJThrfRgmPb8fESt6iJg" H 15550 6150 60  0001 C CNN
+F 4 "1%" H 15550 6271 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15550 6150 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15550 6150 50  0001 C CNN "Material"
+F 7 "50V" H 15550 6150 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 15550 6150 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15550 6150 50  0001 C CNN "Manufacture"
+F 10 "CRCW06031K40FKEA" H 15550 6150 50  0001 C CNN "P/N"
+	1    15550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R65
+U 1 1 5C2C0F48
+P 18650 5300
+F 0 "R65" H 18650 5600 45  0000 C CNN
+F 1 "100 OHM" H 18650 5516 45  0000 C CNN
+F 2 "Resistors:0603" H 18650 5450 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f1000trf-nic+components-10477809?r=sp&s=YQg7UH0WQgmuFw3e-IfrbA" H 18650 5300 60  0001 C CNN
+F 4 "1%" H 18650 5421 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 18650 5300 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 18650 5300 50  0001 C CNN "Material"
+F 7 "50V" H 18650 5300 50  0001 C CNN "Voltage"
+	1    18650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R56
+U 1 1 5C2C2154
+P 16300 6050
+F 0 "R56" H 16300 6350 45  0000 C CNN
+F 1 "604 OHM" H 16300 6266 45  0000 C CNN
+F 2 "Resistors:0603" H 16300 6200 20  0001 C CNN
+F 3 "https://octopart.com/crcw06031k40fkea-vishay-39856971?r=sp&s=N5tJThrfRgmPb8fESt6iJg" H 16300 6050 60  0001 C CNN
+F 4 "1%" H 16300 6171 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 16300 6050 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 16300 6050 50  0001 C CNN "Material"
+F 7 "50V" H 16300 6050 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 16300 6050 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 16300 6050 50  0001 C CNN "Manufacture"
+F 10 "CRCW06031K40FKEA" H 16300 6050 50  0001 C CNN "P/N"
+	1    16300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R62
+U 1 1 5C2C3744
+P 17450 8850
+F 0 "R62" H 17450 9150 45  0000 C CNN
+F 1 "475 OHM" H 17450 9066 45  0000 C CNN
+F 2 "Resistors:0603" H 17450 9000 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 17450 8850 60  0001 C CNN
+F 4 "1%" H 17450 8971 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 17450 8850 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 17450 8850 50  0001 C CNN "Material"
+F 7 "50V" H 17450 8850 50  0001 C CNN "Voltage"
+	1    17450 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R66
+U 1 1 5C2C46A3
+P 13850 12000
+F 0 "R66" H 13850 12300 45  0000 C CNN
+F 1 "47K OHM" H 13850 12216 45  0000 C CNN
+F 2 "Resistors:0603" H 13850 12150 20  0001 C CNN
+F 3 "https://octopart.com/crcw060347k0fkea-vishay-39826226" H 13850 12000 60  0001 C CNN
+F 4 "1%" H 13850 12121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 13850 12000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 13850 12000 50  0001 C CNN "Material"
+F 7 "50V" H 13850 12000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 13850 12000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 13850 12000 50  0001 C CNN "Manufacture"
+F 10 "CRCW060347K0FKEA" H 13850 12000 50  0001 C CNN "P/N"
+	1    13850 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R52
+U 1 1 5C2C7C14
+P 15550 15300
+F 0 "R52" H 15550 15600 45  0000 C CNN
+F 1 "22 OHM" H 15550 15516 45  0000 C CNN
+F 2 "Resistors:0603" H 15550 15450 20  0001 C CNN
+F 3 "https://octopart.com/crcw060322r0fkea-vishay-39862762?r=sp&s=fSYbFDHzQ2SQelbbQqVnqg" H 15550 15300 60  0001 C CNN
+F 4 "1%" H 15550 15421 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15550 15300 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15550 15300 50  0001 C CNN "Material"
+F 7 "50V" H 15550 15300 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 15550 15300 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15550 15300 50  0001 C CNN "Manufacture"
+F 10 "CRCW060322R0FKEA" H 15550 15300 50  0001 C CNN "P/N"
+	1    15550 15300
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R50
+U 1 1 5C2C9CB1
+P 15400 21700
+F 0 "R50" H 15400 22000 45  0000 C CNN
+F 1 "10K OHM" H 15400 21916 45  0000 C CNN
+F 2 "Resistors:0603" H 15400 21850 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 15400 21700 60  0001 C CNN
+F 4 "1%" H 15400 21821 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15400 21700 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15400 21700 50  0001 C CNN "Material"
+F 7 "50V" H 15400 21700 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 15400 21700 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15400 21700 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 15400 21700 50  0001 C CNN "P/N"
+	1    15400 21700
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R64
+U 1 1 5C2CCBF1
+P 17700 27400
+F 0 "R64" H 17700 27700 45  0000 C CNN
+F 1 "100 ohm" H 17700 27616 45  0000 C CNN
+F 2 "Resistors:0603" H 17700 27550 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 17700 27400 60  0001 C CNN
+F 4 "1%" H 17700 27521 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 17700 27400 50  0001 C CNN "Power"
+F 6 "Thin Film" H 17700 27400 50  0001 C CNN "Material"
+F 7 "50V" H 17700 27400 50  0001 C CNN "Voltage"
+	1    17700 27400
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C16
+U 1 1 5C154BB9
+P 16700 5650
+F 0 "C16" H 16808 5795 45  0000 L CNN
+F 1 "0.01uF" H 16808 5711 45  0000 L CNN
+F 2 "Capacitors:0805" H 16700 5900 20  0001 C CNN
+F 3 "https://octopart.com/gcm21br72a104ka37l-murata-7894859?r=sp&s=epPbqnHBSlK__JA7imwDUw" H 16700 5650 50  0001 C CNN
+F 4 "10%" H 16808 5616 60  0000 L CNN "Tolerance"
+F 5 "200W" H 16700 5650 50  0001 C CNN "Power"
+F 6 "Multilayer Ceramic" H 16700 5650 50  0001 C CNN "Material"
+F 7 "100V" H 16700 5650 50  0001 C CNN "Voltage"
+F 8 "125C" H 16700 5650 50  0001 C CNN "Temperature"
+F 9 "Murata" H 16700 5650 50  0001 C CNN "Manufacture"
+F 10 "GCM21BR72A104KA37L" H 16700 5650 50  0001 C CNN "P/N"
+	1    16700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C17
+U 1 1 5C155674
+P 18350 5850
+F 0 "C17" H 18458 5995 45  0000 L CNN
+F 1 "0.01uF" H 18458 5911 45  0000 L CNN
+F 2 "Capacitors:0805" H 18350 6100 20  0001 C CNN
+F 3 "https://octopart.com/gcm21br72a104ka37l-murata-7894859?r=sp&s=epPbqnHBSlK__JA7imwDUw" H 18350 5850 50  0001 C CNN
+F 4 "10%" H 18458 5816 60  0000 L CNN "Tolerance"
+F 5 "200W" H 18350 5850 50  0001 C CNN "Power"
+F 6 "Multilayer Ceramic" H 18350 5850 50  0001 C CNN "Material"
+F 7 "100V" H 18350 5850 50  0001 C CNN "Voltage"
+F 8 "125C" H 18350 5850 50  0001 C CNN "Temperature"
+F 9 "Murata" H 18350 5850 50  0001 C CNN "Manufacture"
+F 10 "GCM21BR72A104KA37L" H 18350 5850 50  0001 C CNN "P/N"
+	1    18350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C13
+U 1 1 5C155FB1
+P 14950 9000
+F 0 "C13" H 15058 9145 45  0000 L CNN
+F 1 "1.0uF" H 15058 9061 45  0000 L CNN
+F 2 "Capacitors:0805" H 14950 9250 20  0001 C CNN
+F 3 "https://octopart.com/gcm188r71c105ka64d-murata-13159598?r=sp&s=PgQJPuLnQxmEWQYJOr2J9Q" H 14950 9000 50  0001 C CNN
+F 4 "10%" H 15058 8966 60  0000 L CNN "Tolerance"
+F 5 "200W" H 14950 9000 50  0001 C CNN "Power"
+F 6 "Multilayer Ceramic" H 14950 9000 50  0001 C CNN "Material"
+F 7 "100V" H 14950 9000 50  0001 C CNN "Voltage"
+F 8 "125C" H 14950 9000 50  0001 C CNN "Temperature"
+F 9 "Murata" H 14950 9000 50  0001 C CNN "Manufacture"
+F 10 "GCM188R71C105KA64D" H 14950 9000 50  0001 C CNN "P/N"
+	1    14950 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R2
+U 1 1 5C182259
+P 3550 22350
+F 0 "R2" H 3550 22650 45  0000 C CNN
+F 1 "100 ohm" H 3550 22566 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 22500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 22350 60  0001 C CNN
+F 4 "1%" H 3550 22471 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 22350 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 22350 50  0001 C CNN "Material"
+F 7 "50V" H 3550 22350 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 22350 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 22350 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 22350 50  0001 C CNN "P/N"
+	1    3550 22350
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R12
+U 1 1 5C18319C
+P 3550 11850
+F 0 "R12" H 3550 12150 45  0000 C CNN
+F 1 "100 ohm" H 3550 12066 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 12000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 11850 60  0001 C CNN
+F 4 "1%" H 3550 11971 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 11850 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 11850 50  0001 C CNN "Material"
+F 7 "50V" H 3550 11850 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 11850 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 11850 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 11850 50  0001 C CNN "P/N"
+	1    3550 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R11
+U 1 1 5C1837D6
+P 3550 12900
+F 0 "R11" H 3550 13200 45  0000 C CNN
+F 1 "100 ohm" H 3550 13116 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 13050 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 12900 60  0001 C CNN
+F 4 "1%" H 3550 13021 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 12900 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 12900 50  0001 C CNN "Material"
+F 7 "50V" H 3550 12900 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 12900 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 12900 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 12900 50  0001 C CNN "P/N"
+	1    3550 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R10
+U 1 1 5C183A71
+P 3550 13950
+F 0 "R10" H 3550 14250 45  0000 C CNN
+F 1 "100 ohm" H 3550 14166 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 14100 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 13950 60  0001 C CNN
+F 4 "1%" H 3550 14071 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 13950 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 13950 50  0001 C CNN "Material"
+F 7 "50V" H 3550 13950 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 13950 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 13950 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 13950 50  0001 C CNN "P/N"
+	1    3550 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R9
+U 1 1 5C183D95
+P 3550 15000
+F 0 "R9" H 3550 15300 45  0000 C CNN
+F 1 "100 ohm" H 3550 15216 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 15150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 15000 60  0001 C CNN
+F 4 "1%" H 3550 15121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 15000 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 15000 50  0001 C CNN "Material"
+F 7 "50V" H 3550 15000 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 15000 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 15000 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 15000 50  0001 C CNN "P/N"
+	1    3550 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R8
+U 1 1 5C18404E
+P 3550 16050
+F 0 "R8" H 3550 16350 45  0000 C CNN
+F 1 "100 ohm" H 3550 16266 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 16200 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 16050 60  0001 C CNN
+F 4 "1%" H 3550 16171 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 16050 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 16050 50  0001 C CNN "Material"
+F 7 "50V" H 3550 16050 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 16050 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 16050 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 16050 50  0001 C CNN "P/N"
+	1    3550 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R7
+U 1 1 5C184308
+P 3550 17100
+F 0 "R7" H 3550 17400 45  0000 C CNN
+F 1 "100 ohm" H 3550 17316 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 17250 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 17100 60  0001 C CNN
+F 4 "1%" H 3550 17221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 17100 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 17100 50  0001 C CNN "Material"
+F 7 "50V" H 3550 17100 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 17100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 17100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 17100 50  0001 C CNN "P/N"
+	1    3550 17100
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R6
+U 1 1 5C184726
+P 3550 18150
+F 0 "R6" H 3550 18450 45  0000 C CNN
+F 1 "100 ohm" H 3550 18366 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 18300 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 18150 60  0001 C CNN
+F 4 "1%" H 3550 18271 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 18150 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 18150 50  0001 C CNN "Material"
+F 7 "50V" H 3550 18150 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 18150 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 18150 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 18150 50  0001 C CNN "P/N"
+	1    3550 18150
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R5
+U 1 1 5C1849E8
+P 3550 19200
+F 0 "R5" H 3550 19500 45  0000 C CNN
+F 1 "100 ohm" H 3550 19416 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 19350 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 19200 60  0001 C CNN
+F 4 "1%" H 3550 19321 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 19200 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 19200 50  0001 C CNN "Material"
+F 7 "50V" H 3550 19200 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 19200 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 19200 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 19200 50  0001 C CNN "P/N"
+	1    3550 19200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R4
+U 1 1 5C184CA9
+P 3550 20250
+F 0 "R4" H 3550 20550 45  0000 C CNN
+F 1 "100 ohm" H 3550 20466 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 20400 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 20250 60  0001 C CNN
+F 4 "1%" H 3550 20371 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 20250 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 20250 50  0001 C CNN "Material"
+F 7 "50V" H 3550 20250 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 20250 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 20250 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 20250 50  0001 C CNN "P/N"
+	1    3550 20250
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R3
+U 1 1 5C184F73
+P 3550 21300
+F 0 "R3" H 3550 21600 45  0000 C CNN
+F 1 "100 ohm" H 3550 21516 45  0000 C CNN
+F 2 "Resistors:0603" H 3550 21450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=NRC06F1000TRF&start=0" H 3550 21300 60  0001 C CNN
+F 4 "1%" H 3550 21421 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 3550 21300 50  0001 C CNN "Power"
+F 6 "Thin Film" H 3550 21300 50  0001 C CNN "Material"
+F 7 "50V" H 3550 21300 50  0001 C CNN "Voltage"
+F 8 "automotive" H 3550 21300 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 3550 21300 50  0001 C CNN "Manufacture"
+F 10 "NRC06F1000TRF" H 3550 21300 50  0001 C CNN "P/N"
+	1    3550 21300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C11
+U 1 1 5C1879D0
+P 4300 13450
+F 0 "C11" H 4408 13595 45  0000 L CNN
+F 1 "0.01uF" H 4408 13511 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 13700 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 13450 50  0001 C CNN
+F 4 "10%" H 4408 13416 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 13450 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 13450 50  0001 C CNN "Material"
+F 7 "50V" H 4300 13450 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 13450 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 13450 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 13450 50  0001 C CNN "P/N"
+	1    4300 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C10
+U 1 1 5C187B00
+P 4300 14500
+F 0 "C10" H 4408 14645 45  0000 L CNN
+F 1 "0.01uF" H 4408 14561 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 14750 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 14500 50  0001 C CNN
+F 4 "10%" H 4408 14466 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 14500 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 14500 50  0001 C CNN "Material"
+F 7 "50V" H 4300 14500 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 14500 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 14500 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 14500 50  0001 C CNN "P/N"
+	1    4300 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C9
+U 1 1 5C187C2C
+P 4300 15550
+F 0 "C9" H 4408 15695 45  0000 L CNN
+F 1 "0.01uF" H 4408 15611 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 15800 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 15550 50  0001 C CNN
+F 4 "10%" H 4408 15516 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 15550 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 15550 50  0001 C CNN "Material"
+F 7 "50V" H 4300 15550 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 15550 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 15550 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 15550 50  0001 C CNN "P/N"
+	1    4300 15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C8
+U 1 1 5C187D62
+P 4300 16600
+F 0 "C8" H 4408 16745 45  0000 L CNN
+F 1 "0.01uF" H 4408 16661 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 16850 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 16600 50  0001 C CNN
+F 4 "10%" H 4408 16566 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 16600 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 16600 50  0001 C CNN "Material"
+F 7 "50V" H 4300 16600 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 16600 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 16600 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 16600 50  0001 C CNN "P/N"
+	1    4300 16600
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C7
+U 1 1 5C187E9A
+P 4300 17650
+F 0 "C7" H 4408 17795 45  0000 L CNN
+F 1 "0.01uF" H 4408 17711 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 17900 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 17650 50  0001 C CNN
+F 4 "10%" H 4408 17616 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 17650 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 17650 50  0001 C CNN "Material"
+F 7 "50V" H 4300 17650 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 17650 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 17650 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 17650 50  0001 C CNN "P/N"
+	1    4300 17650
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C6
+U 1 1 5C187FD4
+P 4300 18700
+F 0 "C6" H 4408 18845 45  0000 L CNN
+F 1 "0.01uF" H 4408 18761 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 18950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 18700 50  0001 C CNN
+F 4 "10%" H 4408 18666 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 18700 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 18700 50  0001 C CNN "Material"
+F 7 "50V" H 4300 18700 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 18700 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 18700 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 18700 50  0001 C CNN "P/N"
+	1    4300 18700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C5
+U 1 1 5C18818E
+P 4300 19750
+F 0 "C5" H 4408 19895 45  0000 L CNN
+F 1 "0.01uF" H 4408 19811 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 20000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 19750 50  0001 C CNN
+F 4 "10%" H 4408 19716 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 19750 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 19750 50  0001 C CNN "Material"
+F 7 "50V" H 4300 19750 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 19750 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 19750 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 19750 50  0001 C CNN "P/N"
+	1    4300 19750
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C4
+U 1 1 5C1882D2
+P 4300 20800
+F 0 "C4" H 4408 20945 45  0000 L CNN
+F 1 "0.01uF" H 4408 20861 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 21050 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 20800 50  0001 C CNN
+F 4 "10%" H 4408 20766 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 20800 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 20800 50  0001 C CNN "Material"
+F 7 "50V" H 4300 20800 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 20800 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 20800 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 20800 50  0001 C CNN "P/N"
+	1    4300 20800
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C3
+U 1 1 5C18840A
+P 4300 21850
+F 0 "C3" H 4408 21995 45  0000 L CNN
+F 1 "0.01uF" H 4408 21911 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 22100 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 21850 50  0001 C CNN
+F 4 "10%" H 4408 21816 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 21850 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 21850 50  0001 C CNN "Material"
+F 7 "50V" H 4300 21850 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 21850 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 21850 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 21850 50  0001 C CNN "P/N"
+	1    4300 21850
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C2
+U 1 1 5C188548
+P 4300 22900
+F 0 "C2" H 4408 23045 45  0000 L CNN
+F 1 "0.01uF" H 4408 22961 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 23150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 22900 50  0001 C CNN
+F 4 "10%" H 4408 22866 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 22900 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 22900 50  0001 C CNN "Material"
+F 7 "50V" H 4300 22900 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 22900 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 22900 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 22900 50  0001 C CNN "P/N"
+	1    4300 22900
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C1
+U 1 1 5C18868E
+P 4300 23950
+F 0 "C1" H 4408 24095 45  0000 L CNN
+F 1 "0.01uF" H 4408 24011 45  0000 L CNN
+F 2 "Capacitors:0603" H 4300 24200 20  0001 C CNN
+F 3 "https://octopart.com/search?q=GCD188R71H103KA01&start=0" H 4300 23950 50  0001 C CNN
+F 4 "10%" H 4408 23916 60  0000 L CNN "Tolerance"
+F 5 "200W" H 4300 23950 50  0001 C CNN "Power"
+F 6 "Ceramic" H 4300 23950 50  0001 C CNN "Material"
+F 7 "50V" H 4300 23950 50  0001 C CNN "Voltage"
+F 8 "125C" H 4300 23950 50  0001 C CNN "Temperature"
+F 9 "Murata" H 4300 23950 50  0001 C CNN "Manufacture"
+F 10 "GCD188R71H103KA01D" H 4300 23950 50  0001 C CNN "P/N"
+	1    4300 23950
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q11
+U 1 1 5C18D800
+P 8250 5500
+F 0 "Q11" H 8390 5401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 5492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 5200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 5591 60  0001 L CNN
+F 4 "unipolar" H 8250 5500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 5500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 5500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 5500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 5500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 5500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 5500 50  0001 C CNN "P/N"
+	1    8250 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q10
+U 1 1 5C18DC72
+P 8250 8000
+F 0 "Q10" H 8390 7901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 7992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 7700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 8091 60  0001 L CNN
+F 4 "unipolar" H 8250 8000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 8000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 8000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 8000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 8000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 8000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 8000 50  0001 C CNN "P/N"
+	1    8250 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q9
+U 1 1 5C18E2CB
+P 8250 10500
+F 0 "Q9" H 8390 10401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 10492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 10200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 10591 60  0001 L CNN
+F 4 "unipolar" H 8250 10500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 10500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 10500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 10500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 10500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 10500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 10500 50  0001 C CNN "P/N"
+	1    8250 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q8
+U 1 1 5C18E42F
+P 8250 13000
+F 0 "Q8" H 8390 12901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 12992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 12700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 13091 60  0001 L CNN
+F 4 "unipolar" H 8250 13000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 13000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 13000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 13000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 13000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 13000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 13000 50  0001 C CNN "P/N"
+	1    8250 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q7
+U 1 1 5C18F62A
+P 8250 15500
+F 0 "Q7" H 8390 15401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 15492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 15200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 15591 60  0001 L CNN
+F 4 "unipolar" H 8250 15500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 15500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 15500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 15500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 15500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 15500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 15500 50  0001 C CNN "P/N"
+	1    8250 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q6
+U 1 1 5C18F79E
+P 8250 18000
+F 0 "Q6" H 8390 17901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 17992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 17700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 18091 60  0001 L CNN
+F 4 "unipolar" H 8250 18000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 18000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 18000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 18000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 18000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 18000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 18000 50  0001 C CNN "P/N"
+	1    8250 18000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q4
+U 1 1 5C18F8FA
+P 8250 23000
+F 0 "Q4" H 8390 22901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 22992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 22700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 23091 60  0001 L CNN
+F 4 "unipolar" H 8250 23000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 23000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 23000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 23000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 23000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 23000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 23000 50  0001 C CNN "P/N"
+	1    8250 23000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q5
+U 1 1 5C18FC8A
+P 8250 20500
+F 0 "Q5" H 8390 20401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 20492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 20200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 20591 60  0001 L CNN
+F 4 "unipolar" H 8250 20500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 20500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 20500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 20500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 20500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 20500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 20500 50  0001 C CNN "P/N"
+	1    8250 20500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q3
+U 1 1 5C18FE02
+P 8250 25500
+F 0 "Q3" H 8390 25401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 25492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 25200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 25591 60  0001 L CNN
+F 4 "unipolar" H 8250 25500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 25500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 25500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 25500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 25500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 25500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 25500 50  0001 C CNN "P/N"
+	1    8250 25500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q2
+U 1 1 5C18FFDD
+P 8250 28000
+F 0 "Q2" H 8390 27901 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 27992 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 27700 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 28091 60  0001 L CNN
+F 4 "unipolar" H 8250 28000 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 28000 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 28000 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 28000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 28000 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 28000 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 28000 50  0001 C CNN "P/N"
+	1    8250 28000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:MOSFET-P-RocketScreamKicadLibrary-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue Q1
+U 1 1 5C190141
+P 8250 30500
+F 0 "Q1" H 8390 30401 50  0000 L CNN
+F 1 "MOSFET-P" H 8390 30492 50  0000 L CNN
+F 2 "Silicon-Standard:SOT23-3" H 8250 30200 29  0001 C CNN
+F 3 "https://octopart.com/bss308peh6327xtsa1-infineon-21522152?r=sp&s=YNN-N804T-ufxvhA8lhE1Q" H 8390 30591 60  0001 L CNN
+F 4 "unipolar" H 8250 30500 50  0001 C CNN "Tolerance"
+F 5 "0.5W" H 8250 30500 50  0001 C CNN "Power"
+F 6 "P-MOSFET" H 8250 30500 50  0001 C CNN "Material"
+F 7 "-30V" H 8250 30500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 8250 30500 50  0001 C CNN "Temperature"
+F 9 "Infineon" H 8250 30500 50  0001 C CNN "Manufacture"
+F 10 "BSS308PEH6327XTSA1" H 8250 30500 50  0001 C CNN "P/N"
+	1    8250 30500
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R35
+U 1 1 5C193202
+P 9150 5500
+F 0 "R35" H 9150 5800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 5716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 5650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 5500 60  0001 C CNN
+F 4 "1%" H 9150 5621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 5500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 5500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 5500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 5500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 5500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 5500 50  0001 C CNN "P/N"
+	1    9150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R34
+U 1 1 5C193506
+P 9150 8000
+F 0 "R34" H 9150 8300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 8216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 8150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 8000 60  0001 C CNN
+F 4 "1%" H 9150 8121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 8000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 8000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 8000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 8000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 8000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 8000 50  0001 C CNN "P/N"
+	1    9150 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R33
+U 1 1 5C19478A
+P 9150 10500
+F 0 "R33" H 9150 10800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 10716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 10650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 10500 60  0001 C CNN
+F 4 "1%" H 9150 10621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 10500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 10500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 10500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 10500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 10500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 10500 50  0001 C CNN "P/N"
+	1    9150 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R32
+U 1 1 5C194A49
+P 9150 13000
+F 0 "R32" H 9150 13300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 13216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 13150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 13000 60  0001 C CNN
+F 4 "1%" H 9150 13121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 13000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 13000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 13000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 13000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 13000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 13000 50  0001 C CNN "P/N"
+	1    9150 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R31
+U 1 1 5C194FEB
+P 9150 15500
+F 0 "R31" H 9150 15800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 15716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 15650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 15500 60  0001 C CNN
+F 4 "1%" H 9150 15621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 15500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 15500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 15500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 15500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 15500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 15500 50  0001 C CNN "P/N"
+	1    9150 15500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R30
+U 1 1 5C1952CC
+P 9150 18000
+F 0 "R30" H 9150 18300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 18216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 18150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 18000 60  0001 C CNN
+F 4 "1%" H 9150 18121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 18000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 18000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 18000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 18000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 18000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 18000 50  0001 C CNN "P/N"
+	1    9150 18000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R29
+U 1 1 5C195686
+P 9150 20500
+F 0 "R29" H 9150 20800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 20716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 20650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 20500 60  0001 C CNN
+F 4 "1%" H 9150 20621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 20500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 20500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 20500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 20500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 20500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 20500 50  0001 C CNN "P/N"
+	1    9150 20500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R28
+U 1 1 5C195961
+P 9150 23000
+F 0 "R28" H 9150 23300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 23216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 23150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 23000 60  0001 C CNN
+F 4 "1%" H 9150 23121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 23000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 23000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 23000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 23000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 23000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 23000 50  0001 C CNN "P/N"
+	1    9150 23000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R27
+U 1 1 5C195F47
+P 9150 25500
+F 0 "R27" H 9150 25800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 25716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 25650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 25500 60  0001 C CNN
+F 4 "1%" H 9150 25621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 25500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 25500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 25500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 25500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 25500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 25500 50  0001 C CNN "P/N"
+	1    9150 25500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R26
+U 1 1 5C196230
+P 9150 28000
+F 0 "R26" H 9150 28300 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 28216 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 28150 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 28000 60  0001 C CNN
+F 4 "1%" H 9150 28121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 28000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 28000 50  0001 C CNN "Material"
+F 7 "50V" H 9150 28000 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 28000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 28000 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 28000 50  0001 C CNN "P/N"
+	1    9150 28000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R25
+U 1 1 5C196702
+P 9150 30500
+F 0 "R25" H 9150 30800 45  0000 C CNN
+F 1 "3.3K OHM" H 9150 30716 45  0000 C CNN
+F 2 "Resistors:0603" H 9150 30650 20  0001 C CNN
+F 3 "https://octopart.com/search?q=crcw06033k30fkea&start=0" H 9150 30500 60  0001 C CNN
+F 4 "1%" H 9150 30621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9150 30500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9150 30500 50  0001 C CNN "Material"
+F 7 "50V" H 9150 30500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 9150 30500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 9150 30500 50  0001 C CNN "Manufacture"
+F 10 "CRCW06033K30FKEA" H 9150 30500 50  0001 C CNN "P/N"
+	1    9150 30500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R23
+U 1 1 5C1B5EB1
+P 8250 6300
+F 0 "R23" V 8155 6368 45  0000 L CNN
+F 1 "33 OHM" V 8239 6368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 6450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 6300 60  0001 C CNN
+F 4 "1%" V 8334 6368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 6300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 6300 50  0001 C CNN "Material"
+F 7 "High" V 8250 6300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 6300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 6300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 6300 50  0001 C CNN "P/N"
+	1    8250 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R22
+U 1 1 5C1B6E84
+P 8250 8800
+F 0 "R22" V 8155 8868 45  0000 L CNN
+F 1 "33 OHM" V 8239 8868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 8950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 8800 60  0001 C CNN
+F 4 "1%" V 8334 8868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 8800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 8800 50  0001 C CNN "Material"
+F 7 "High" V 8250 8800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 8800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 8800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 8800 50  0001 C CNN "P/N"
+	1    8250 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R21
+U 1 1 5C1B7160
+P 8250 11300
+F 0 "R21" V 8155 11368 45  0000 L CNN
+F 1 "33 OHM" V 8239 11368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 11450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 11300 60  0001 C CNN
+F 4 "1%" V 8334 11368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 11300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 11300 50  0001 C CNN "Material"
+F 7 "High" V 8250 11300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 11300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 11300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 11300 50  0001 C CNN "P/N"
+	1    8250 11300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R20
+U 1 1 5C1B74C2
+P 8250 13800
+F 0 "R20" V 8155 13868 45  0000 L CNN
+F 1 "33 OHM" V 8239 13868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 13950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 13800 60  0001 C CNN
+F 4 "1%" V 8334 13868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 13800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 13800 50  0001 C CNN "Material"
+F 7 "High" V 8250 13800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 13800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 13800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 13800 50  0001 C CNN "P/N"
+	1    8250 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R19
+U 1 1 5C1B7AEE
+P 8250 16300
+F 0 "R19" V 8155 16368 45  0000 L CNN
+F 1 "33 OHM" V 8239 16368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 16450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 16300 60  0001 C CNN
+F 4 "1%" V 8334 16368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 16300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 16300 50  0001 C CNN "Material"
+F 7 "High" V 8250 16300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 16300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 16300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 16300 50  0001 C CNN "P/N"
+	1    8250 16300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R18
+U 1 1 5C1B7DD7
+P 8250 18800
+F 0 "R18" V 8155 18868 45  0000 L CNN
+F 1 "33 OHM" V 8239 18868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 18950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 18800 60  0001 C CNN
+F 4 "1%" V 8334 18868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 18800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 18800 50  0001 C CNN "Material"
+F 7 "High" V 8250 18800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 18800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 18800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 18800 50  0001 C CNN "P/N"
+	1    8250 18800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R17
+U 1 1 5C1B8319
+P 8250 21300
+F 0 "R17" V 8155 21368 45  0000 L CNN
+F 1 "33 OHM" V 8239 21368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 21450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 21300 60  0001 C CNN
+F 4 "1%" V 8334 21368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 21300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 21300 50  0001 C CNN "Material"
+F 7 "High" V 8250 21300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 21300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 21300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 21300 50  0001 C CNN "P/N"
+	1    8250 21300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R16
+U 1 1 5C1B86F4
+P 8250 23800
+F 0 "R16" V 8155 23868 45  0000 L CNN
+F 1 "33 OHM" V 8239 23868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 23950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 23800 60  0001 C CNN
+F 4 "1%" V 8334 23868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 23800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 23800 50  0001 C CNN "Material"
+F 7 "High" V 8250 23800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 23800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 23800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 23800 50  0001 C CNN "P/N"
+	1    8250 23800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R15
+U 1 1 5C1B89EE
+P 8250 26300
+F 0 "R15" V 8155 26368 45  0000 L CNN
+F 1 "33 OHM" V 8239 26368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 26450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 26300 60  0001 C CNN
+F 4 "1%" V 8334 26368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 26300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 26300 50  0001 C CNN "Material"
+F 7 "High" V 8250 26300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 26300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 26300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 26300 50  0001 C CNN "P/N"
+	1    8250 26300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R14
+U 1 1 5C1B8FD1
+P 8250 28800
+F 0 "R14" V 8155 28868 45  0000 L CNN
+F 1 "33 OHM" V 8239 28868 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 28950 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 28800 60  0001 C CNN
+F 4 "1%" V 8334 28868 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 28800 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 28800 50  0001 C CNN "Material"
+F 7 "High" V 8250 28800 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 28800 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 28800 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 28800 50  0001 C CNN "P/N"
+	1    8250 28800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:15OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R13
+U 1 1 5C1B92C9
+P 8250 31300
+F 0 "R13" V 8155 31368 45  0000 L CNN
+F 1 "33 OHM" V 8239 31368 45  0000 L CNN
+F 2 "Resistor-SMD:R_2512_6332Metric" H 8250 31450 20  0001 C CNN
+F 3 "https://octopart.com/search?q=CRCW251233R0FKEG&start=0" H 8250 31300 60  0001 C CNN
+F 4 "1%" V 8334 31368 60  0000 L CNN "Tolerance"
+F 5 "10W" V 8250 31300 50  0001 C CNN "Power"
+F 6 "Thick Film Chip" V 8250 31300 50  0001 C CNN "Material"
+F 7 "High" V 8250 31300 50  0001 C CNN "Voltage"
+F 8 "125" V 8250 31300 50  0001 C CNN "Temperature"
+F 9 "Vishay" V 8250 31300 50  0001 C CNN "Manufacture"
+F 10 "CRCW251215R0FKEG" V 8250 31300 50  0001 C CNN "P/N"
+	1    8250 31300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R38
+U 1 1 5C1BABE9
+P 9300 29100
+F 0 "R38" H 9300 29400 45  0000 C CNN
+F 1 "475 OHM" H 9300 29316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 29250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 29100 60  0001 C CNN
+F 4 "1%" H 9300 29221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 29100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 29100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 29100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 29100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 29100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 29100 50  0001 C CNN "P/N"
+	1    9300 29100
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R39
+U 1 1 5C1BBED7
+P 9300 26600
+F 0 "R39" H 9300 26900 45  0000 C CNN
+F 1 "475 OHM" H 9300 26816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 26750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 26600 60  0001 C CNN
+F 4 "1%" H 9300 26721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 26600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 26600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 26600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 26600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 26600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 26600 50  0001 C CNN "P/N"
+	1    9300 26600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R40
+U 1 1 5C1BC20D
+P 9300 24100
+F 0 "R40" H 9300 24400 45  0000 C CNN
+F 1 "475 OHM" H 9300 24316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 24250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 24100 60  0001 C CNN
+F 4 "1%" H 9300 24221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 24100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 24100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 24100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 24100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 24100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 24100 50  0001 C CNN "P/N"
+	1    9300 24100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 23700 9300 23900
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R41
+U 1 1 5C1BCAEA
+P 9300 21600
+F 0 "R41" H 9300 21900 45  0000 C CNN
+F 1 "475 OHM" H 9300 21816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 21750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 21600 60  0001 C CNN
+F 4 "1%" H 9300 21721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 21600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 21600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 21600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 21600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 21600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 21600 50  0001 C CNN "P/N"
+	1    9300 21600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R42
+U 1 1 5C1BCE4A
+P 9300 19100
+F 0 "R42" H 9300 19400 45  0000 C CNN
+F 1 "475 OHM" H 9300 19316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 19250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 19100 60  0001 C CNN
+F 4 "1%" H 9300 19221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 19100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 19100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 19100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 19100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 19100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 19100 50  0001 C CNN "P/N"
+	1    9300 19100
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R43
+U 1 1 5C1BF3B2
+P 9300 16600
+F 0 "R43" H 9300 16900 45  0000 C CNN
+F 1 "475 OHM" H 9300 16816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 16750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 16600 60  0001 C CNN
+F 4 "1%" H 9300 16721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 16600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 16600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 16600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 16600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 16600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 16600 50  0001 C CNN "P/N"
+	1    9300 16600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R44
+U 1 1 5C1C26A6
+P 9300 14100
+F 0 "R44" H 9300 14400 45  0000 C CNN
+F 1 "475 OHM" H 9300 14316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 14250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 14100 60  0001 C CNN
+F 4 "1%" H 9300 14221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 14100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 14100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 14100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 14100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 14100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 14100 50  0001 C CNN "P/N"
+	1    9300 14100
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R45
+U 1 1 5C1C46E6
+P 9300 11600
+F 0 "R45" H 9300 11900 45  0000 C CNN
+F 1 "475 OHM" H 9300 11816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 11750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 11600 60  0001 C CNN
+F 4 "1%" H 9300 11721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 11600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 11600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 11600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 11600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 11600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 11600 50  0001 C CNN "P/N"
+	1    9300 11600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R46
+U 1 1 5C1C6C32
+P 9300 9100
+F 0 "R46" H 9300 9400 45  0000 C CNN
+F 1 "475 OHM" H 9300 9316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 9250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 9100 60  0001 C CNN
+F 4 "1%" H 9300 9221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 9100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 9100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 9100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 9100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 9100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 9100 50  0001 C CNN "P/N"
+	1    9300 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R47
+U 1 1 5C1C8ECC
+P 9300 6600
+F 0 "R47" H 9300 6900 45  0000 C CNN
+F 1 "475 OHM" H 9300 6816 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 6750 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 6600 60  0001 C CNN
+F 4 "1%" H 9300 6721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 6600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 6600 50  0001 C CNN "Material"
+F 7 "50V" H 9300 6600 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 6600 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 6600 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 6600 50  0001 C CNN "P/N"
+	1    9300 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R48
+U 1 1 5C1CAE3C
+P 9300 4100
+F 0 "R48" H 9300 4400 45  0000 C CNN
+F 1 "475 OHM" H 9300 4316 45  0000 C CNN
+F 2 "Resistors:0603" H 9300 4250 20  0001 C CNN
+F 3 "https://octopart.com/nrc06f4750trf-nic+components-10441462?r=sp&s=H80Gk2KHTxSQ0zbgbt1XiA" H 9300 4100 60  0001 C CNN
+F 4 "1%" H 9300 4221 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 9300 4100 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 9300 4100 50  0001 C CNN "Material"
+F 7 "50V" H 9300 4100 50  0001 C CNN "Voltage"
+F 8 "125" H 9300 4100 50  0001 C CNN "Temperature"
+F 9 "NIC Components" H 9300 4100 50  0001 C CNN "Manufacture"
+F 10 "NRC06F4750TRF" H 9300 4100 50  0001 C CNN "P/N"
+	1    9300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R54
+U 1 1 5C1CECAA
+P 15700 22000
+F 0 "R54" H 15700 22300 45  0000 C CNN
+F 1 "10K OHM" H 15700 22216 45  0000 C CNN
+F 2 "Resistors:0603" H 15700 22150 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 15700 22000 60  0001 C CNN
+F 4 "1%" H 15700 22121 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15700 22000 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15700 22000 50  0001 C CNN "Material"
+F 7 "50V" H 15700 22000 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 15700 22000 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15700 22000 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 15700 22000 50  0001 C CNN "P/N"
+	1    15700 22000
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R55
+U 1 1 5C1CF0E0
+P 16000 22300
+F 0 "R55" H 16000 22600 45  0000 C CNN
+F 1 "10K OHM" H 16000 22516 45  0000 C CNN
+F 2 "Resistors:0603" H 16000 22450 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 16000 22300 60  0001 C CNN
+F 4 "1%" H 16000 22421 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 16000 22300 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 16000 22300 50  0001 C CNN "Material"
+F 7 "50V" H 16000 22300 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 16000 22300 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 16000 22300 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 16000 22300 50  0001 C CNN "P/N"
+	1    16000 22300
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R57
+U 1 1 5C1CF416
+P 16300 22600
+F 0 "R57" H 16300 22900 45  0000 C CNN
+F 1 "10K OHM" H 16300 22816 45  0000 C CNN
+F 2 "Resistors:0603" H 16300 22750 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 16300 22600 60  0001 C CNN
+F 4 "1%" H 16300 22721 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 16300 22600 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 16300 22600 50  0001 C CNN "Material"
+F 7 "50V" H 16300 22600 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 16300 22600 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 16300 22600 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 16300 22600 50  0001 C CNN "P/N"
+	1    16300 22600
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R58
+U 1 1 5C1CF854
+P 16600 22900
+F 0 "R58" H 16600 23200 45  0000 C CNN
+F 1 "10K OHM" H 16600 23116 45  0000 C CNN
+F 2 "Resistors:0603" H 16600 23050 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 16600 22900 60  0001 C CNN
+F 4 "1%" H 16600 23021 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 16600 22900 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 16600 22900 50  0001 C CNN "Material"
+F 7 "50V" H 16600 22900 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 16600 22900 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 16600 22900 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 16600 22900 50  0001 C CNN "P/N"
+	1    16600 22900
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R59
+U 1 1 5C1CFB8A
+P 16900 23200
+F 0 "R59" H 16900 23500 45  0000 C CNN
+F 1 "10K OHM" H 16900 23416 45  0000 C CNN
+F 2 "Resistors:0603" H 16900 23350 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 16900 23200 60  0001 C CNN
+F 4 "1%" H 16900 23321 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 16900 23200 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 16900 23200 50  0001 C CNN "Material"
+F 7 "50V" H 16900 23200 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 16900 23200 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 16900 23200 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 16900 23200 50  0001 C CNN "P/N"
+	1    16900 23200
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R60
+U 1 1 5C1D0057
+P 17200 23500
+F 0 "R60" H 17200 23800 45  0000 C CNN
+F 1 "10K OHM" H 17200 23716 45  0000 C CNN
+F 2 "Resistors:0603" H 17200 23650 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 17200 23500 60  0001 C CNN
+F 4 "1%" H 17200 23621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 17200 23500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 17200 23500 50  0001 C CNN "Material"
+F 7 "50V" H 17200 23500 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 17200 23500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 17200 23500 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 17200 23500 50  0001 C CNN "P/N"
+	1    17200 23500
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R63
+U 1 1 5C1D0389
+P 17500 23800
+F 0 "R63" H 17500 24100 45  0000 C CNN
+F 1 "10K OHM" H 17500 24016 45  0000 C CNN
+F 2 "Resistors:0603" H 17500 23950 20  0001 C CNN
+F 3 "https://octopart.com/crcw060310k0fkea-vishay-55388213?r=sp&s=IpGLn8gfQIaAZXYDVKUhCQ" H 17500 23800 60  0001 C CNN
+F 4 "1%" H 17500 23921 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 17500 23800 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 17500 23800 50  0001 C CNN "Material"
+F 7 "50V" H 17500 23800 50  0001 C CNN "Voltage"
+F 8 "-55C to +125C" H 17500 23800 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 17500 23800 50  0001 C CNN "Manufacture"
+F 10 "CRCW060310K0FKEA" H 17500 23800 50  0001 C CNN "P/N"
+	1    17500 23800
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D2
+U 1 1 5C1D4F6F
+P 9300 28500
+F 0 "D2" H 9377 28545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 28461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 28500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 28500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 28366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 28500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 28500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 28500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 28500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 28500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 28500 50  0001 C CNN "P/N"
+	1    9300 28500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D3
+U 1 1 5C1D54C8
+P 9300 26000
+F 0 "D3" H 9377 26045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 25961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 26000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 26000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 25866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 26000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 26000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 26000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 26000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 26000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 26000 50  0001 C CNN "P/N"
+	1    9300 26000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D4
+U 1 1 5C1D563C
+P 9300 23500
+F 0 "D4" H 9377 23545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 23461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 23500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 23500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 23366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 23500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 23500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 23500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 23500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 23500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 23500 50  0001 C CNN "P/N"
+	1    9300 23500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D5
+U 1 1 5C1D5782
+P 9300 21000
+F 0 "D5" H 9377 21045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 20961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 21000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 21000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 20866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 21000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 21000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 21000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 21000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 21000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 21000 50  0001 C CNN "P/N"
+	1    9300 21000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D6
+U 1 1 5C1E4638
+P 9300 18500
+F 0 "D6" H 9377 18545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 18461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 18500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 18500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 18366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 18500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 18500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 18500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 18500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 18500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 18500 50  0001 C CNN "P/N"
+	1    9300 18500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D7
+U 1 1 5C1E4794
+P 9300 16000
+F 0 "D7" H 9377 16045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 15961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 16000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 16000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 15866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 16000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 16000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 16000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 16000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 16000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 16000 50  0001 C CNN "P/N"
+	1    9300 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D8
+U 1 1 5C1E48F8
+P 9300 13500
+F 0 "D8" H 9377 13545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 13461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 13500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 13500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 13366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 13500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 13500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 13500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 13500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 13500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 13500 50  0001 C CNN "P/N"
+	1    9300 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D9
+U 1 1 5C1E4A54
+P 9300 11000
+F 0 "D9" H 9377 11045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 10961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 11000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 11000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 10866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 11000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 11000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 11000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 11000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 11000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 11000 50  0001 C CNN "P/N"
+	1    9300 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D10
+U 1 1 5C1E4BBC
+P 9300 8500
+F 0 "D10" H 9377 8545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 8461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 8500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 8500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 8366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 8500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 8500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 8500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 8500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 8500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 8500 50  0001 C CNN "P/N"
+	1    9300 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D11
+U 1 1 5C1E4D1A
+P 9300 6000
+F 0 "D11" H 9377 6045 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 5961 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 6000 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 6000 50  0001 C CNN
+F 4 "DIO-00821" H 9377 5866 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 6000 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 6000 50  0001 C CNN "Material"
+F 7 "5v" H 9300 6000 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 6000 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 6000 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 6000 50  0001 C CNN "P/N"
+	1    9300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D12
+U 1 1 5C1E4E7E
+P 9300 3500
+F 0 "D12" H 9377 3545 45  0000 L CNN
+F 1 "LED-GREEN0603" H 9377 3461 45  0000 L CNN
+F 2 "LED:LED-0603" V 9100 3500 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 9300 3500 50  0001 C CNN
+F 4 "DIO-00821" H 9377 3366 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 9300 3500 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 9300 3500 50  0001 C CNN "Material"
+F 7 "5v" H 9300 3500 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 9300 3500 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 9300 3500 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 9300 3500 50  0001 C CNN "P/N"
+	1    9300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C14
+U 1 1 5C1EB8F4
+P 15350 8750
+F 0 "C14" H 15458 8895 45  0000 L CNN
+F 1 "1.0uF" H 15458 8811 45  0000 L CNN
+F 2 "Capacitors:0805" H 15350 9000 20  0001 C CNN
+F 3 "https://octopart.com/gcm188r71c105ka64d-murata-13159598?r=sp&s=PgQJPuLnQxmEWQYJOr2J9Q" H 15350 8750 50  0001 C CNN
+F 4 "10%" H 15458 8716 60  0000 L CNN "Tolerance"
+F 5 "200W" H 15350 8750 50  0001 C CNN "Power"
+F 6 "Multilayer Ceramic" H 15350 8750 50  0001 C CNN "Material"
+F 7 "100V" H 15350 8750 50  0001 C CNN "Voltage"
+F 8 "125C" H 15350 8750 50  0001 C CNN "Temperature"
+F 9 "Murata" H 15350 8750 50  0001 C CNN "Manufacture"
+F 10 "GCM188R71C105KA64D" H 15350 8750 50  0001 C CNN "P/N"
+	1    15350 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:10NF-0603-50V-10%-SparkFun-Capacitors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue C15
+U 1 1 5C1EBC2E
+P 16550 8550
+F 0 "C15" H 16658 8695 45  0000 L CNN
+F 1 "1.0uF" H 16658 8611 45  0000 L CNN
+F 2 "Capacitors:0805" H 16550 8800 20  0001 C CNN
+F 3 "https://octopart.com/gcm188r71c105ka64d-murata-13159598?r=sp&s=PgQJPuLnQxmEWQYJOr2J9Q" H 16550 8550 50  0001 C CNN
+F 4 "10%" H 16658 8516 60  0000 L CNN "Tolerance"
+F 5 "200W" H 16550 8550 50  0001 C CNN "Power"
+F 6 "Multilayer Ceramic" H 16550 8550 50  0001 C CNN "Material"
+F 7 "100V" H 16550 8550 50  0001 C CNN "Voltage"
+F 8 "125C" H 16550 8550 50  0001 C CNN "Temperature"
+F 9 "Murata" H 16550 8550 50  0001 C CNN "Manufacture"
+F 10 "GCM188R71C105KA64D" H 16550 8550 50  0001 C CNN "P/N"
+	1    16550 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R53
+U 1 1 5C1EDAC0
+P 15550 15700
+F 0 "R53" H 15550 16000 45  0000 C CNN
+F 1 "22 OHM" H 15550 15916 45  0000 C CNN
+F 2 "Resistors:0603" H 15550 15850 20  0001 C CNN
+F 3 "https://octopart.com/crcw060322r0fkea-vishay-39862762?r=sp&s=fSYbFDHzQ2SQelbbQqVnqg" H 15550 15700 60  0001 C CNN
+F 4 "1%" H 15550 15821 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15550 15700 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15550 15700 50  0001 C CNN "Material"
+F 7 "50V" H 15550 15700 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 15550 15700 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15550 15700 50  0001 C CNN "Manufacture"
+F 10 "CRCW060322R0FKEA" H 15550 15700 50  0001 C CNN "P/N"
+	1    15550 15700
+	-1   0    0    1   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R67
+U 1 1 5C1EF9C5
+P 14500 12250
+F 0 "R67" H 14500 12550 45  0000 C CNN
+F 1 "47K OHM" H 14500 12466 45  0000 C CNN
+F 2 "Resistors:0603" H 14500 12400 20  0001 C CNN
+F 3 "https://octopart.com/crcw060347k0fkea-vishay-39826226" H 14500 12250 60  0001 C CNN
+F 4 "1%" H 14500 12371 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 14500 12250 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 14500 12250 50  0001 C CNN "Material"
+F 7 "50V" H 14500 12250 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 14500 12250 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 14500 12250 50  0001 C CNN "Manufacture"
+F 10 "CRCW060347K0FKEA" H 14500 12250 50  0001 C CNN "P/N"
+	1    14500 12250
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R68
+U 1 1 5C1EFAFB
+P 15150 12500
+F 0 "R68" H 15150 12800 45  0000 C CNN
+F 1 "47K OHM" H 15150 12716 45  0000 C CNN
+F 2 "Resistors:0603" H 15150 12650 20  0001 C CNN
+F 3 "https://octopart.com/crcw060347k0fkea-vishay-39826226" H 15150 12500 60  0001 C CNN
+F 4 "1%" H 15150 12621 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15150 12500 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15150 12500 50  0001 C CNN "Material"
+F 7 "50V" H 15150 12500 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 15150 12500 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15150 12500 50  0001 C CNN "Manufacture"
+F 10 "CRCW060347K0FKEA" H 15150 12500 50  0001 C CNN "P/N"
+	1    15150 12500
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:100OHM-0603-1_10W-1%-SparkFun-Resistors-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue R69
+U 1 1 5C1EFC33
+P 15800 12750
+F 0 "R69" H 15800 13050 45  0000 C CNN
+F 1 "47K OHM" H 15800 12966 45  0000 C CNN
+F 2 "Resistors:0603" H 15800 12900 20  0001 C CNN
+F 3 "https://octopart.com/crcw060347k0fkea-vishay-39826226" H 15800 12750 60  0001 C CNN
+F 4 "1%" H 15800 12871 60  0000 C CNN "Tolerance"
+F 5 "1/10W" H 15800 12750 50  0001 C CNN "Power"
+F 6 "Thick Film SMD Paper" H 15800 12750 50  0001 C CNN "Material"
+F 7 "50V" H 15800 12750 50  0001 C CNN "Voltage"
+F 8 "Automotive" H 15800 12750 50  0001 C CNN "Temperature"
+F 9 "Vishay" H 15800 12750 50  0001 C CNN "Manufacture"
+F 10 "CRCW060347K0FKEA" H 15800 12750 50  0001 C CNN "P/N"
+	1    15800 12750
+	0    1    1    0   
+$EndComp
+$Comp
+L UT1-2810-601-rescue:LED-GREEN0603-SparkFun-LED-BMS_6804IG-2_Slave_V1-rescue-BMS_6804IG-2_Slave_V1-rescue D13
+U 1 1 5C2C0285
+P 17450 8250
+F 0 "D13" H 17527 8295 45  0000 L CNN
+F 1 "LED-RED0603" H 17527 8211 45  0000 L CNN
+F 2 "LED:LED-0603" V 17250 8250 20  0001 C CNN
+F 3 "https://octopart.com/search?q=LTST-C190KGKT&start=0" H 17450 8250 50  0001 C CNN
+F 4 "DIO-00821" H 17527 8116 60  0000 L CNN "Tolerance"
+F 5 "75mW, 30mA, 80mApeak" H 17450 8250 50  0001 C CNN "Power"
+F 6 "AlInGaP Chip LED" H 17450 8250 50  0001 C CNN "Material"
+F 7 "5v" H 17450 8250 50  0001 C CNN "Voltage"
+F 8 "-30C to +85C" H 17450 8250 50  0001 C CNN "Temperature"
+F 9 "Lite-On" H 17450 8250 50  0001 C CNN "Manufacture"
+F 10 "LTST-C190KGKT" H 17450 8250 50  0001 C CNN "P/N"
+	1    17450 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 15300 16850 15300
+Wire Wire Line
+	17250 15300 18150 15300
+Wire Wire Line
+	18150 15300 18150 15150
+Wire Wire Line
+	18150 15150 18450 15150
+Wire Wire Line
+	15750 15700 16850 15700
+Wire Wire Line
+	17250 15700 18150 15700
+Wire Wire Line
+	18150 15700 18150 15800
+Wire Wire Line
+	18150 15800 18450 15800
+$Comp
+L Device:Q_NPN_BCEC Q13
+U 1 1 5C7CC1CD
+P 17700 7700
+F 0 "Q13" H 17988 7746 50  0000 L CNN
+F 1 "TRANS_NPN, NSV1C201MZ4" H 17988 7655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 17900 7800 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NSV1C201MZ4T1G-ON-Semiconductor-datasheet-13700335.pdf" H 17700 7700 50  0001 C CNN
+F 4 "automotive" H 17700 7700 50  0001 C CNN "Tolerance"
+F 5 "800mW" H 17700 7700 50  0001 C CNN "Power"
+F 6 "Pb Free" H 17700 7700 50  0001 C CNN "Material"
+F 7 "100V" H 17700 7700 50  0001 C CNN "Voltage"
+F 8 "-55 to +150" H 17700 7700 50  0001 C CNN "Temp"
+F 9 "On Semi" H 17700 7700 50  0001 C CNN "Manufacture"
+F 10 "NSV1C201MZ4T1G" H 17700 7700 50  0001 C CNN "P/N"
+	1    17700 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 7700 17500 7700
+Wire Wire Line
+	17900 7500 17900 7100
+Wire Wire Line
+	17900 7100 17800 7100
+Connection ~ 17800 7100
+Wire Wire Line
+	17800 7100 17800 5300
+$Comp
+L Device:R_US R49
+U 1 1 5C814415
+P 14100 15450
+F 0 "R49" H 14168 15496 50  0000 L CNN
+F 1 "100 ohm" H 14168 15405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 14140 15440 50  0001 C CNN
+F 3 "~" H 14100 15450 50  0001 C CNN
+	1    14100 15450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 14800 14100 14800
+Wire Wire Line
+	13200 16200 14100 16200
+Wire Wire Line
+	14100 15600 14100 16200
+Connection ~ 14100 16200
+Wire Wire Line
+	14100 16200 15050 16200
+Wire Wire Line
+	14100 15300 14100 14800
+Connection ~ 14100 14800
+Wire Wire Line
+	14100 14800 15050 14800
+$EndSCHEMATC

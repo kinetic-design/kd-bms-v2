@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name BMS_6804IG-2_Slave_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_6804IG-2_Slave_V1-rescue.lib)(options "")(descr ""))
+  (lib (name UT1-2810-601-rescue)(type Legacy)(uri ${KIPRJMOD}/UT1-2810-601-rescue.lib)(options "")(descr ""))
+  (lib (name Transformer)(type Legacy)(uri /home/pbear/KiCadLibs/Transformer/Transformer.lib)(options "")(descr ""))
+  (lib (name kd-bms-v2-rescue)(type Legacy)(uri ${KIPRJMOD}/kd-bms-v2-rescue.lib)(options "")(descr ""))
+)
